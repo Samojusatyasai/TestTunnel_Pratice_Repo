@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testtunnel_testsuite1,Chrome 114.0.0.0,,,2023-07-25 18:57:15,2023-07-25 18:59:03,1m - 47.491s,PASSED
+,,,,,,,
+Test Cases/TestTunnel1,Chrome 114.0.0.0,,,2023-07-25 18:57:16,2023-07-25 18:57:52,36.494s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-25 18:57:16,2023-07-25 18:57:20,3.859s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-25 18:57:20,2023-07-25 18:57:20,0.154s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 114.0.0.0,,,2023-07-25 18:57:20,2023-07-25 18:57:46,26.380s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-07-25 18:57:46,2023-07-25 18:57:50,4.045s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-25 18:57:50,2023-07-25 18:57:52,1.726s,PASSED
+,,,,,,,
+Test Cases/Test Tunnel3,Chrome 114.0.0.0,,,2023-07-25 18:57:52,2023-07-25 18:59:03,1m - 10.705s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-25 18:57:53,2023-07-25 18:57:55,2.379s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-25 18:57:55,2023-07-25 18:57:55,0.132s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 114.0.0.0,,,2023-07-25 18:57:55,2023-07-25 18:58:42,46.859s,PASSED
+"setText(findTestObject(""TestTunnel3/Page_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 114.0.0.0,,,2023-07-25 18:58:42,2023-07-25 18:58:48,6.299s,PASSED
+"setText(findTestObject(""TestTunnel3/Page_OrangeHRM/input_Password_password""), ""admin123"")",Chrome 114.0.0.0,,,2023-07-25 18:58:48,2023-07-25 18:58:49,0.785s,PASSED
+"click(findTestObject(""TestTunnel3/Page_OrangeHRM/button_Login""))",Chrome 114.0.0.0,,,2023-07-25 18:58:49,2023-07-25 18:58:51,1.794s,PASSED
+"click(findTestObject(""TestTunnel3/Page_OrangeHRM/span_Admin""))",Chrome 114.0.0.0,,,2023-07-25 18:58:51,2023-07-25 18:58:55,3.977s,PASSED
+"click(findTestObject(""TestTunnel3/Page_OrangeHRM/button_Add""))",Chrome 114.0.0.0,,,2023-07-25 18:58:55,2023-07-25 18:58:59,3.794s,PASSED
+delay(3),Chrome 114.0.0.0,,,2023-07-25 18:58:59,2023-07-25 18:59:02,3.021s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-25 18:59:02,2023-07-25 18:59:03,1.274s,PASSED
