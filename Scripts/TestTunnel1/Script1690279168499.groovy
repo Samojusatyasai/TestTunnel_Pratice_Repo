@@ -23,7 +23,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://www.google.com/')
 
-WebUI.delay(3)
+WebUI.delay(4)
 
 WebUI.closeBrowser()
 

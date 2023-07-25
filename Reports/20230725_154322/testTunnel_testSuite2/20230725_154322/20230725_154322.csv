@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testTunnel_testSuite2,Chrome 114.0.0.0,,,2023-07-25 15:43:25,2023-07-25 15:43:39,14.296s,PASSED
+,,,,,,,
+Test Cases/TestTunnel2,Chrome 114.0.0.0,,,2023-07-25 15:43:25,2023-07-25 15:43:39,14.050s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-25 15:43:25,2023-07-25 15:43:29,3.880s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-25 15:43:29,2023-07-25 15:43:29,0.175s,PASSED
+"navigateToUrl(""https://www.youtube.com/"")",Chrome 114.0.0.0,,,2023-07-25 15:43:29,2023-07-25 15:43:34,5.170s,PASSED
+delay(3),Chrome 114.0.0.0,,,2023-07-25 15:43:34,2023-07-25 15:43:37,3.065s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-25 15:43:38,2023-07-25 15:43:39,1.423s,PASSED
