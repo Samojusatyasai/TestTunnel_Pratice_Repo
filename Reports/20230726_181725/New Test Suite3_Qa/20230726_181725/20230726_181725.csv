@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite3_Qa,Android - Chrome 114.0.0.0,,,2023-07-26 18:17:55,2023-07-26 18:33:05,15m - 10.100s,FAILED
+,,,,,,,
+Test Cases/TestTunnel4Demoqa,Android - Chrome 114.0.0.0,,,2023-07-26 18:27:00,2023-07-26 18:33:05,6m - 5.469s,FAILED
+"openBrowser("""")",Android - Chrome 114.0.0.0,,,2023-07-26 18:27:00,2023-07-26 18:28:28,1m - 28.397s,PASSED
+maximizeWindow(),Android - Chrome 114.0.0.0,,,2023-07-26 18:28:28,2023-07-26 18:28:29,0.890s,PASSED
+"navigateToUrl(""https://demoqa.com/"")",Android - Chrome 114.0.0.0,,,2023-07-26 18:28:29,2023-07-26 18:28:58,29.045s,PASSED
+delay(2),Android - Chrome 114.0.0.0,,,2023-07-26 18:28:58,2023-07-26 18:29:00,2.017s,PASSED
+"click(findTestObject(""DemoqaText/Page_DEMOQA/path""))",Android - Chrome 114.0.0.0,,,2023-07-26 18:29:00,2023-07-26 18:29:05,5.109s,PASSED
+"click(findTestObject(""DemoqaText/Page_DEMOQA/li_Text Box""))",Android - Chrome 114.0.0.0,,,2023-07-26 18:29:05,2023-07-26 18:29:12,6.147s,PASSED
+"setText(findTestObject(""DemoqaText/Page_DEMOQA/input_Full Name_userName""), ""Samoju satyasai"")",Android - Chrome 114.0.0.0,,,2023-07-26 18:29:12,2023-07-26 18:30:25,1m - 13.203s,PASSED
+"setText(findTestObject(""DemoqaText/Page_DEMOQA/input_Email_userEmail""), ""abc@gmail.com"")",Android - Chrome 114.0.0.0,,,2023-07-26 18:30:25,2023-07-26 18:33:05,2m - 40.646s,FAILED

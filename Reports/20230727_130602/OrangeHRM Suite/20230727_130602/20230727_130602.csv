@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OrangeHRM Suite,Chrome 115.0.0.0,,,2023-07-27 13:06:17,2023-07-27 13:07:21,1m - 3.944s,PASSED
+,,,,,,,
+Test Cases/OrangeHRM,Chrome 115.0.0.0,,,2023-07-27 13:06:18,2023-07-27 13:07:21,1m - 3.454s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-27 13:06:19,2023-07-27 13:06:25,6.126s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 115.0.0.0,,,2023-07-27 13:06:25,2023-07-27 13:06:59,34.240s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-07-27 13:06:59,2023-07-27 13:06:59,0.226s,PASSED
+"setText(findTestObject(""Object Repository/Orange_HRM_VerifyText/Page_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 115.0.0.0,,,2023-07-27 13:06:59,2023-07-27 13:07:01,2.041s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Orange_HRM_VerifyText/Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 115.0.0.0,,,2023-07-27 13:07:01,2023-07-27 13:07:02,0.943s,PASSED
+"click(findTestObject(""Object Repository/Orange_HRM_VerifyText/Page_OrangeHRM/button_Login""))",Chrome 115.0.0.0,,,2023-07-27 13:07:02,2023-07-27 13:07:06,3.265s,PASSED
+"click(findTestObject(""Object Repository/Orange_HRM_VerifyText/Page_OrangeHRM/a_Admin""))",Chrome 115.0.0.0,,,2023-07-27 13:07:06,2023-07-27 13:07:12,5.988s,PASSED
+"setText(findTestObject(""Object Repository/Orange_HRM_VerifyText/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus""), ""satyasaee"")",Chrome 115.0.0.0,,,2023-07-27 13:07:12,2023-07-27 13:07:15,3.718s,PASSED
+"click(findTestObject(""Object Repository/Orange_HRM_VerifyText/Page_OrangeHRM/button_Search""))",Chrome 115.0.0.0,,,2023-07-27 13:07:15,2023-07-27 13:07:16,0.647s,PASSED
+"text = verifyElementText(findTestObject(""Object Repository/Orange_HRM_VerifyText/Page_OrangeHRM/span_No Records Found""), ""No Records Found"")",Chrome 115.0.0.0,,,2023-07-27 13:07:16,2023-07-27 13:07:17,1.056s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-07-27 13:07:17,2023-07-27 13:07:20,3.064s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-27 13:07:20,2023-07-27 13:07:21,1.438s,PASSED

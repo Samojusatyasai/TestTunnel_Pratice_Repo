@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite3_Qa" time="177.091" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite3_Qa" tests="1" failures="0" errors="0" time="177.091" skipped="0" timestamp="2023-07-26 18:47:44" hostname="satyasai.samoju - INBL01LAP31245.brd.g-c-i.com" id="Test Suites/New Test Suite3_Qa">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\Reports\\20230726_184724\\New Test Suite3_Qa\\20230726_184724"/>
+         <property name="logFiles" value="C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\Reports\\20230726_184724\\New Test Suite3_Qa\\20230726_184724\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="satyasai.samoju - INBL01LAP31245.brd.g-c-i.com"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;se:cdpVersion&quot;: &quot;114.0.5735.91&quot;,
+  &quot;timeouts&quot;: {
+    &quot;implicit&quot;: 0,
+    &quot;pageLoad&quot;: 300000,
+    &quot;script&quot;: 30000
+  },
+  &quot;platform&quot;: &quot;WINDOWS&quot;,
+  &quot;goog:chromeOptions&quot;: {
+    &quot;debuggerAddress&quot;: &quot;localhost:49891&quot;
+  },
+  &quot;requestId&quot;: &quot;e9b7f55d-1681-4d80-8ff4-d48b65c6db03&quot;,
+  &quot;webauthn:extension:credBlob&quot;: true,
+  &quot;acceptInsecureCerts&quot;: false,
+  &quot;browserVersion&quot;: &quot;114.0.0.0&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;javascriptEnabled&quot;: true,
+  &quot;katalon:option&quot;: {
+    &quot;unlimitedExecutionMinutes&quot;: true,
+    &quot;apiKey&quot;: &quot;71bc3dda-0dca-4ef8-bf5b-ebadbcb77988&quot;,
+    &quot;tunnelMetadataId&quot;: &quot;dc092cbc-975b-4edc-acb4-46a8e236a020&quot;,
+    &quot;userId&quot;: 1243919,
+    &quot;organizationId&quot;: &quot;1221318&quot;,
+    &quot;teamId&quot;: &quot;1170312&quot;,
+    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,
+    &quot;runFromTestCloud&quot;: true,
+    &quot;tenant&quot;: &quot;KatalonStudio&quot;,
+    &quot;usingTunnel&quot;: true,
+    &quot;group&quot;: &quot;eb1bcca9-4f33-4203-ae23-adf0465a52ce&quot;
+  },
+  &quot;platformName&quot;: &quot;WINDOWS&quot;,
+  &quot;setWindowRect&quot;: true,
+  &quot;webauthn:extension:largeBlob&quot;: true,
+  &quot;networkConnectionEnabled&quot;: false,
+  &quot;chrome&quot;: {
+    &quot;chromedriverVersion&quot;: &quot;114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052})&quot;,
+    &quot;userDataDir&quot;: &quot;C:\\Windows\\SystemTemp\\scoped_dir3604_561629612&quot;
+  },
+  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,
+  &quot;strictFileInteractability&quot;: false,
+  &quot;se:cdp&quot;: &quot;ws://10.0.2.15:4444/session/9d4a90dab1c09d7eb560dec908a07099/se/cdp&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;PAC&quot;,
+    &quot;autodetect&quot;: false,
+    &quot;proxyAutoconfigUrl&quot;: &quot;http://tunnel-manager-internal.katalon.com/pac/dc092cbc-975b-4edc-acb4-46a8e236a020.pac&quot;
+  },
+  &quot;webauthn:extension:minPinLength&quot;: true,
+  &quot;webauthn:extension:prf&quot;: true,
+  &quot;webauthn:virtualAuthenticators&quot;: true
+}"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="9d4a90dab1c09d7eb560dec908a07099"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TestTunnel4Demoqa" time="176.577" classname="Test Cases/TestTunnel4Demoqa" status="PASSED">
+         <system-out><![CDATA[2023-07-26 18:47:45 - [TEST_CASE][PASSED] - Test Cases/TestTunnel4Demoqa: Test Cases/TestTunnel4Demoqa
+
+2023-07-26 18:47:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-26 18:47:46 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2023-07-26 18:47:46 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2023-07-26 18:47:46 - [MESSAGE][INFO] - User set preference: ['browserVersion', '114']
+
+2023-07-26 18:47:46 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1221318, tunnelId=dc092cbc-975b-4edc-acb4-46a8e236a020, usingTunnel=true}']
+
+2023-07-26 18:47:46 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-07-26 18:47:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-26 18:48:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-26 18:48:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-26 18:48:52 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-26 18:48:52 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+2023-07-26 18:49:58 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2023-07-26 18:49:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-26 18:50:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-26 18:50:00 - [TEST_STEP][PASSED] - click(findTestObject("DemoqaText/Page_DEMOQA/path")): Object: 'Object Repository/DemoqaText/Page_DEMOQA/path' is clicked on
+
+2023-07-26 18:50:00 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DemoqaText/Page_DEMOQA/path'. Try using Self-healing.
+
+2023-07-26 18:50:02 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/DemoqaText/Page_DEMOQA/path' was broken. Propose an alternative one: 'path'.
+
+2023-07-26 18:50:03 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoqaText/Page_DEMOQA/path' is clicked on
+
+2023-07-26 18:50:03 - [TEST_STEP][PASSED] - click(findTestObject("DemoqaText/Page_DEMOQA/li_Text Box")): Object: 'Object Repository/DemoqaText/Page_DEMOQA/li_Text Box' is clicked on
+
+2023-07-26 18:50:09 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoqaText/Page_DEMOQA/li_Text Box' is clicked on
+
+2023-07-26 18:50:09 - [TEST_STEP][PASSED] - setText(findTestObject("DemoqaText/Page_DEMOQA/input_Full Name_userName"), "Samoju satyasai"): Text 'Samoju satyasai' is set on object 'Object Repository/DemoqaText/Page_DEMOQA/input_Full Name_userName'
+
+2023-07-26 18:50:15 - [MESSAGE][PASSED] - Text 'Samoju satyasai' is set on object 'Object Repository/DemoqaText/Page_DEMOQA/input_Full Name_userName'
+
+2023-07-26 18:50:15 - [TEST_STEP][PASSED] - setText(findTestObject("DemoqaText/Page_DEMOQA/input_Email_userEmail"), "abc@gmail.com"): Text 'abc@gmail.com' is set on object 'Object Repository/DemoqaText/Page_DEMOQA/input_Email_userEmail'
+
+2023-07-26 18:50:21 - [MESSAGE][PASSED] - Text 'abc@gmail.com' is set on object 'Object Repository/DemoqaText/Page_DEMOQA/input_Email_userEmail'
+
+2023-07-26 18:50:21 - [TEST_STEP][PASSED] - setText(findTestObject("DemoqaText/Page_DEMOQA/textarea_Current Address_currentAddress"), "visakhapatnam"): Text 'visakhapatnam' is set on object 'Object Repository/DemoqaText/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+2023-07-26 18:50:27 - [MESSAGE][PASSED] - Text 'visakhapatnam' is set on object 'Object Repository/DemoqaText/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+2023-07-26 18:50:27 - [TEST_STEP][PASSED] - setText(findTestObject("DemoqaText/Page_DEMOQA/textarea_Permanent Address_permanentAddress"), "visakhapatnam"): Text 'visakhapatnam' is set on object 'Object Repository/DemoqaText/Page_DEMOQA/textarea_Permanent Address_permanentAddress'
+
+2023-07-26 18:50:33 - [MESSAGE][PASSED] - Text 'visakhapatnam' is set on object 'Object Repository/DemoqaText/Page_DEMOQA/textarea_Permanent Address_permanentAddress'
+
+2023-07-26 18:50:33 - [TEST_STEP][PASSED] - click(findTestObject("DemoqaText/Page_DEMOQA/button_Submit")): Object: 'Object Repository/DemoqaText/Page_DEMOQA/button_Submit' is clicked on
+
+2023-07-26 18:50:36 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoqaText/Page_DEMOQA/button_Submit' is clicked on
+
+2023-07-26 18:50:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-26 18:50:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-26 18:50:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-26 18:50:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-26 18:47:44 - [TEST_SUITE][PASSED] - New Test Suite3_Qa: Test Cases/TestTunnel4Demoqa]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

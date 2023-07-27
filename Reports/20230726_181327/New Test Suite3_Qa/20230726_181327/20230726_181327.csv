@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite3_Qa,Windows - Chrome 114.0.0.0,,,2023-07-26 18:13:37,2023-07-26 18:15:50,2m - 13.181s,PASSED
+,,,,,,,
+Test Cases/TestTunnel4Demoqa,Windows - Chrome 114.0.0.0,,,2023-07-26 18:13:37,2023-07-26 18:15:50,2m - 12.914s,PASSED
+"openBrowser("""")",Windows - Chrome 114.0.0.0,,,2023-07-26 18:13:37,2023-07-26 18:14:37,59.235s,PASSED
+maximizeWindow(),Windows - Chrome 114.0.0.0,,,2023-07-26 18:14:37,2023-07-26 18:14:38,1.227s,PASSED
+"navigateToUrl(""https://demoqa.com/"")",Windows - Chrome 114.0.0.0,,,2023-07-26 18:14:38,2023-07-26 18:14:49,11.369s,PASSED
+delay(2),Windows - Chrome 114.0.0.0,,,2023-07-26 18:14:49,2023-07-26 18:14:51,2.041s,PASSED
+"click(findTestObject(""DemoqaText/Page_DEMOQA/path""))",Windows - Chrome 114.0.0.0,,,2023-07-26 18:14:51,2023-07-26 18:14:57,5.201s,PASSED
+"click(findTestObject(""DemoqaText/Page_DEMOQA/li_Text Box""))",Windows - Chrome 114.0.0.0,,,2023-07-26 18:14:57,2023-07-26 18:15:02,5.530s,PASSED
+"setText(findTestObject(""DemoqaText/Page_DEMOQA/input_Full Name_userName""), ""Samoju satyasai"")",Windows - Chrome 114.0.0.0,,,2023-07-26 18:15:02,2023-07-26 18:15:11,9.203s,PASSED
+"setText(findTestObject(""DemoqaText/Page_DEMOQA/input_Email_userEmail""), ""abc@gmail.com"")",Windows - Chrome 114.0.0.0,,,2023-07-26 18:15:11,2023-07-26 18:15:21,10.086s,PASSED
+"setText(findTestObject(""DemoqaText/Page_DEMOQA/textarea_Current Address_currentAddress""), ""visakhapatnam"")",Windows - Chrome 114.0.0.0,,,2023-07-26 18:15:21,2023-07-26 18:15:35,13.352s,PASSED
+"setText(findTestObject(""DemoqaText/Page_DEMOQA/textarea_Permanent Address_permanentAddress""), ""visakhapatnam"")",Windows - Chrome 114.0.0.0,,,2023-07-26 18:15:35,2023-07-26 18:15:41,6.780s,PASSED
+"click(findTestObject(""DemoqaText/Page_DEMOQA/button_Submit""))",Windows - Chrome 114.0.0.0,,,2023-07-26 18:15:41,2023-07-26 18:15:45,3.816s,PASSED
+delay(3),Windows - Chrome 114.0.0.0,,,2023-07-26 18:15:45,2023-07-26 18:15:48,3.008s,PASSED
+closeBrowser(),Windows - Chrome 114.0.0.0,,,2023-07-26 18:15:48,2023-07-26 18:15:50,1.748s,PASSED

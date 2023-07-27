@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite3_Qa,Chrome 114.0.0.0,,,2023-07-26 17:27:28,2023-07-26 17:28:13,45.574s,PASSED
+,,,,,,,
+Test Cases/TestTunnel4Demoqa,Chrome 114.0.0.0,,,2023-07-26 17:27:28,2023-07-26 17:28:13,45.293s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-26 17:27:28,2023-07-26 17:27:32,3.872s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-26 17:27:32,2023-07-26 17:27:32,0.185s,PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 114.0.0.0,,,2023-07-26 17:27:32,2023-07-26 17:27:57,25.087s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-07-26 17:27:57,2023-07-26 17:27:59,2.037s,PASSED
+"click(findTestObject(""DemoqaText/Page_DEMOQA/path""))",Chrome 114.0.0.0,,,2023-07-26 17:27:59,2023-07-26 17:28:02,2.929s,PASSED
+"click(findTestObject(""DemoqaText/Page_DEMOQA/li_Text Box""))",Chrome 114.0.0.0,,,2023-07-26 17:28:02,2023-07-26 17:28:03,1.093s,PASSED
+"setText(findTestObject(""DemoqaText/Page_DEMOQA/input_Full Name_userName""), ""Samoju satyasai"")",Chrome 114.0.0.0,,,2023-07-26 17:28:03,2023-07-26 17:28:04,0.891s,PASSED
+"setText(findTestObject(""DemoqaText/Page_DEMOQA/input_Email_userEmail""), ""abc@gmail.com"")",Chrome 114.0.0.0,,,2023-07-26 17:28:04,2023-07-26 17:28:06,2.101s,PASSED
+"setText(findTestObject(""DemoqaText/Page_DEMOQA/textarea_Current Address_currentAddress""), ""visakhapatnam"")",Chrome 114.0.0.0,,,2023-07-26 17:28:06,2023-07-26 17:28:07,0.753s,PASSED
+"setText(findTestObject(""DemoqaText/Page_DEMOQA/textarea_Permanent Address_permanentAddress""), ""visakhapatnam"")",Chrome 114.0.0.0,,,2023-07-26 17:28:07,2023-07-26 17:28:08,0.785s,PASSED
+"click(findTestObject(""DemoqaText/Page_DEMOQA/button_Submit""))",Chrome 114.0.0.0,,,2023-07-26 17:28:08,2023-07-26 17:28:09,0.896s,PASSED
+delay(3),Chrome 114.0.0.0,,,2023-07-26 17:28:09,2023-07-26 17:28:12,3.012s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-26 17:28:12,2023-07-26 17:28:13,1.334s,PASSED

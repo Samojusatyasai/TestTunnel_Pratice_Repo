@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite3_Qa,iOS - Safari 16,,,2023-07-26 18:54:45,2023-07-26 19:01:39,6m - 53.973s,FAILED
+,,,,,,,
+Test Cases/TestTunnel4Demoqa,iOS - Safari 16,,,2023-07-26 19:00:06,2023-07-26 19:01:39,1m - 33.168s,FAILED
+"openBrowser("""")",iOS - Safari 16,,,2023-07-26 19:00:06,2023-07-26 19:01:27,1m - 20.770s,PASSED
+maximizeWindow(),iOS - Safari 16,,,2023-07-26 19:01:27,2023-07-26 19:01:39,12.367s,FAILED

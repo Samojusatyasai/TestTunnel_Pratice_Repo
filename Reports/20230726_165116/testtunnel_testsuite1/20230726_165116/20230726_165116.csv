@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testtunnel_testsuite1,Windows - Chrome 114.0.0.0,,,2023-07-26 16:51:50,2023-07-26 16:55:09,3m - 18.297s,PASSED
+,,,,,,,
+Test Cases/TestTunnel1,Windows - Chrome 114.0.0.0,,,2023-07-26 16:51:51,2023-07-26 16:53:24,1m - 32.879s,PASSED
+"openBrowser("""")",Windows - Chrome 114.0.0.0,,,2023-07-26 16:51:51,2023-07-26 16:53:10,1m - 18.260s,PASSED
+maximizeWindow(),Windows - Chrome 114.0.0.0,,,2023-07-26 16:53:10,2023-07-26 16:53:11,1.694s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Windows - Chrome 114.0.0.0,,,2023-07-26 16:53:11,2023-07-26 16:53:16,4.322s,PASSED
+delay(4),Windows - Chrome 114.0.0.0,,,2023-07-26 16:53:16,2023-07-26 16:53:20,4.066s,PASSED
+closeBrowser(),Windows - Chrome 114.0.0.0,,,2023-07-26 16:53:20,2023-07-26 16:53:24,3.810s,PASSED
+,,,,,,,
+Test Cases/Test Tunnel3,Windows - Chrome 114.0.0.0,,,2023-07-26 16:53:24,2023-07-26 16:55:09,1m - 44.917s,PASSED
+"openBrowser("""")",Windows - Chrome 114.0.0.0,,,2023-07-26 16:53:24,2023-07-26 16:54:20,55.475s,PASSED
+maximizeWindow(),Windows - Chrome 114.0.0.0,,,2023-07-26 16:54:20,2023-07-26 16:54:21,1.590s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Windows - Chrome 114.0.0.0,,,2023-07-26 16:54:21,2023-07-26 16:54:24,2.666s,PASSED
+"setText(findTestObject(""TestTunnel3/Page_OrangeHRM/input_Username_username""), ""Admin"")",Windows - Chrome 114.0.0.0,,,2023-07-26 16:54:24,2023-07-26 16:54:36,12.072s,PASSED
+"setText(findTestObject(""TestTunnel3/Page_OrangeHRM/input_Password_password""), ""admin123"")",Windows - Chrome 114.0.0.0,,,2023-07-26 16:54:36,2023-07-26 16:54:44,8.266s,PASSED
+"click(findTestObject(""TestTunnel3/Page_OrangeHRM/button_Login""))",Windows - Chrome 114.0.0.0,,,2023-07-26 16:54:44,2023-07-26 16:54:50,5.973s,PASSED
+"click(findTestObject(""TestTunnel3/Page_OrangeHRM/span_Admin""))",Windows - Chrome 114.0.0.0,,,2023-07-26 16:54:50,2023-07-26 16:54:58,7.859s,PASSED
+"click(findTestObject(""TestTunnel3/Page_OrangeHRM/button_Add""))",Windows - Chrome 114.0.0.0,,,2023-07-26 16:54:58,2023-07-26 16:55:03,4.637s,PASSED
+delay(3),Windows - Chrome 114.0.0.0,,,2023-07-26 16:55:03,2023-07-26 16:55:06,3.016s,PASSED
+closeBrowser(),Windows - Chrome 114.0.0.0,,,2023-07-26 16:55:06,2023-07-26 16:55:09,2.575s,PASSED

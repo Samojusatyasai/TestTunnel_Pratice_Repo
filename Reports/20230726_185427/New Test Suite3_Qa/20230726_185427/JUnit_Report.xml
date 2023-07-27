@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite3_Qa" time="413.973" tests="1" failures="1" errors="0">
+   <testsuite name="New Test Suite3_Qa" tests="1" failures="1" errors="0" time="413.973" skipped="0" timestamp="2023-07-26 18:54:45" hostname="satyasai.samoju - INBL01LAP31245.brd.g-c-i.com" id="Test Suites/New Test Suite3_Qa">
+      <properties>
+         <property name="deviceName" value="iPhone iPhone 14 Pro"/>
+         <property name="devicePlatform" value="IOS"/>
+         <property name="logFolder" value="C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\Reports\\20230726_185427\\New Test Suite3_Qa\\20230726_185427"/>
+         <property name="logFiles" value="C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\Reports\\20230726_185427\\New Test Suite3_Qa\\20230726_185427\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\Reports\\20230726_185427\\New Test Suite3_Qa\\20230726_185427\\1690377968413.png, C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\Reports\\20230726_185427\\New Test Suite3_Qa\\20230726_185427\\1690378090102.png, C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\Reports\\20230726_185427\\New Test Suite3_Qa\\20230726_185427\\1690378182676.png, C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\Reports\\20230726_185427\\New Test Suite3_Qa\\20230726_185427\\1690378288264.png"/>
+         <property name="hostName" value="satyasai.samoju - INBL01LAP31245.brd.g-c-i.com"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;testobject_user_id&quot;: &quot;coty_katalon&quot;,
+  &quot;testobject_test_report_url&quot;: &quot;https://app.*********.com/tests/ad23dc4555d34ff5aeed47c275cfd468&quot;,
+  &quot;testobject_device_name&quot;: &quot;iPhone 14 Pro&quot;,
+  &quot;testobject_device_session_id&quot;: &quot;bf04fa89-2521-46d0-89c6-7fe6769af518&quot;,
+  &quot;deviceName&quot;: &quot;iPhone iPhone 14 Pro&quot;,
+  &quot;platform&quot;: &quot;IOS&quot;,
+  &quot;***:options&quot;: {
+    &quot;name&quot;: &quot;TestCloud Automated Test Session &quot;,
+    &quot;realDevice&quot;: true,
+    &quot;tunnelIdentifier&quot;: &quot;e47cbfd3-64a6-406b-a328-5d77d8b62d4b&quot;,
+    &quot;build&quot;: &quot;TestCloud Automated Test Session &quot;,
+    &quot;commandTimeouts&quot;: &quot;60000&quot;
+  },
+  &quot;webDriverAgentUrl&quot;: &quot;http://127.0.0.1:5701&quot;,
+  &quot;jobUuid&quot;: &quot;ad23dc4555d34ff5aeed47c275cfd468&quot;,
+  &quot;requestId&quot;: &quot;e47cbfd3-64a6-406b-a328-5d77d8b62d4b&quot;,
+  &quot;browserVersion&quot;: &quot;16&quot;,
+  &quot;platformVersion&quot;: &quot;16.5.1&quot;,
+  &quot;automationName&quot;: &quot;XCUITest&quot;,
+  &quot;webStorageEnabled&quot;: false,
+  &quot;browserName&quot;: &quot;safari&quot;,
+  &quot;takesScreenshot&quot;: true,
+  &quot;javascriptEnabled&quot;: true,
+  &quot;katalon:option&quot;: {
+    &quot;unlimitedExecutionMinutes&quot;: true,
+    &quot;apiKey&quot;: &quot;71bc3dda-0dca-4ef8-bf5b-ebadbcb77988&quot;,
+    &quot;tunnelMetadataId&quot;: &quot;dc092cbc-975b-4edc-acb4-46a8e236a020&quot;,
+    &quot;deviceVersion&quot;: &quot;16.5.1&quot;,
+    &quot;deviceId&quot;: &quot;apple_iphone_14_pro&quot;,
+    &quot;userId&quot;: 1243919,
+    &quot;organizationId&quot;: &quot;1221318&quot;,
+    &quot;teamId&quot;: &quot;1170312&quot;,
+    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,
+    &quot;runFromTestCloud&quot;: true,
+    &quot;tenant&quot;: &quot;KatalonStudio&quot;,
+    &quot;usingTunnel&quot;: true,
+    &quot;group&quot;: &quot;eb1bcca9-4f33-4203-ae23-adf0465a52ce&quot;
+  },
+  &quot;platformName&quot;: &quot;IOS&quot;,
+  &quot;udid&quot;: &quot;00008120-0012194E01D3401E&quot;,
+  &quot;deviceContextId&quot;: &quot;cea30fa1-182b-4de0-b93a-51a78d5f2750&quot;,
+  &quot;networkConnectionEnabled&quot;: false,
+  &quot;orientation&quot;: &quot;PORTRAIT&quot;,
+  &quot;testobject_device&quot;: &quot;iPhone_14_Pro_real_us&quot;,
+  &quot;databaseEnabled&quot;: false,
+  &quot;usedCachedDevice&quot;: false,
+  &quot;version&quot;: &quot;latest&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;PAC&quot;,
+    &quot;autodetect&quot;: false,
+    &quot;proxyAutoconfigUrl&quot;: &quot;http://tunnel-manager-internal.katalon.com/pac/dc092cbc-975b-4edc-acb4-46a8e236a020.pac&quot;
+  },
+  &quot;testobject_test_report_api_url&quot;: &quot;https://***.*********.com/v1/rdc/jobs/ad23dc4555d34ff5aeed47c275cfd468&quot;,
+  &quot;appiumData&quot;: {
+    &quot;appiumVersion&quot;: &quot;1.22.2&quot;,
+    &quot;automationName&quot;: &quot;XCUITest&quot;
+  },
+  &quot;locationContextEnabled&quot;: false,
+  &quot;appium:deviceName&quot;: &quot;iPhone_14_Pro_real_us&quot;
+}"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="remoteOS" value="iOS"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Safari 16"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="5d65aa31-aa27-4c79-a21c-973f08ba870c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TestTunnel4Demoqa" time="93.168" classname="Test Cases/TestTunnel4Demoqa" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TestTunnel4Demoqa FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:283)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$0.call(Unknown Source)
+	at TestTunnel4Demoqa.run(TestTunnel4Demoqa:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690377867365.run(TempTestSuite1690377867365.groovy:36)
+Caused by: org.openqa.selenium.UnsupportedCommandException: Method has not yet been implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'INBL01LAP31245', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {appium:deviceName: iPhone_14_Pro_real_us, appiumData: {appiumVersion: 1.22.2, automationName: XCUITest}, automationName: XCUITest, browserName: safari, browserVersion: latest, databaseEnabled: false, deviceContextId: cea30fa1-182b-4de0-b93a-51a..., deviceName: 00008120-0012194E01D3401E, javascriptEnabled: true, jobUuid: ad23dc4555d34ff5aeed47c275c..., katalon:option: {apiKey: 71bc3dda-0dca-4ef8-bf5b-eba..., class: com.katalon.testcloud.grid...., deviceId: apple_iphone_14_pro, deviceVersion: 16.5.1, group: eb1bcca9-4f33-4203-ae23-adf..., organizationId: 1221318, runFromTestCloud: true, teamId: 1170312, tenant: KatalonStudio, tunnelMetadataId: dc092cbc-975b-4edc-acb4-46a..., unlimitedExecutionMinutes: true, userId: 1243919, usingTunnel: true}, locationContextEnabled: false, networkConnectionEnabled: false, orientation: PORTRAIT, platform: IOS, platformName: IOS, platformVersion: 16.5.1, proxy: Proxy(pac: http://tunnel-ma..., requestId: e47cbfd3-64a6-406b-a328-5d7..., sauce:options: {build: TestCloud Automated Test Se..., commandTimeouts: 60000, name: TestCloud Automated Test Se..., realDevice: true, tunnelIdentifier: e47cbfd3-64a6-406b-a328-5d7...}, takesScreenshot: true, testobject_device: iPhone_14_Pro_real_us, testobject_device_name: iPhone 14 Pro, testobject_device_session_id: bf04fa89-2521-46d0-89c6-7fe..., testobject_test_report_api_url: https://api.us-west-1.*****..., testobject_test_report_url: https://app.*********.com/t..., testobject_user_id: coty_katalon, udid: 00008120-0012194E01D3401E, usedCachedDevice: false, version: latest, webDriverAgentUrl: http://127.0.0.1:5701, webStorageEnabled: false}
+Session ID: 5d65aa31-aa27-4c79-a21c-973f08ba870c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWindow.maximize(EventFiringWebDriver.java:769)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.doCall(MaximizeWindowKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.call(MaximizeWindowKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-07-26 19:00:06 - [TEST_CASE][FAILED] - Test Cases/TestTunnel4Demoqa: Test Cases/TestTunnel4Demoqa FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:283)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$0.call(Unknown Source)
+	at TestTunnel4Demoqa.run(TestTunnel4Demoqa:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690377867365.run(TempTestSuite1690377867365.groovy:36)
+Caused by: org.openqa.selenium.UnsupportedCommandException: Method has not yet been implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'INBL01LAP31245', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {appium:deviceName: iPhone_14_Pro_real_us, appiumData: {appiumVersion: 1.22.2, automationName: XCUITest}, automationName: XCUITest, browserName: safari, browserVersion: latest, databaseEnabled: false, deviceContextId: cea30fa1-182b-4de0-b93a-51a..., deviceName: 00008120-0012194E01D3401E, javascriptEnabled: true, jobUuid: ad23dc4555d34ff5aeed47c275c..., katalon:option: {apiKey: 71bc3dda-0dca-4ef8-bf5b-eba..., class: com.katalon.testcloud.grid...., deviceId: apple_iphone_14_pro, deviceVersion: 16.5.1, group: eb1bcca9-4f33-4203-ae23-adf..., organizationId: 1221318, runFromTestCloud: true, teamId: 1170312, tenant: KatalonStudio, tunnelMetadataId: dc092cbc-975b-4edc-acb4-46a..., unlimitedExecutionMinutes: true, userId: 1243919, usingTunnel: true}, locationContextEnabled: false, networkConnectionEnabled: false, orientation: PORTRAIT, platform: IOS, platformName: IOS, platformVersion: 16.5.1, proxy: Proxy(pac: http://tunnel-ma..., requestId: e47cbfd3-64a6-406b-a328-5d7..., sauce:options: {build: TestCloud Automated Test Se..., commandTimeouts: 60000, name: TestCloud Automated Test Se..., realDevice: true, tunnelIdentifier: e47cbfd3-64a6-406b-a328-5d7...}, takesScreenshot: true, testobject_device: iPhone_14_Pro_real_us, testobject_device_name: iPhone 14 Pro, testobject_device_session_id: bf04fa89-2521-46d0-89c6-7fe..., testobject_test_report_api_url: https://api.us-west-1.*****..., testobject_test_report_url: https://app.*********.com/t..., testobject_user_id: coty_katalon, udid: 00008120-0012194E01D3401E, usedCachedDevice: false, version: latest, webDriverAgentUrl: http://127.0.0.1:5701, webStorageEnabled: false}
+Session ID: 5d65aa31-aa27-4c79-a21c-973f08ba870c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWindow.maximize(EventFiringWebDriver.java:769)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.doCall(MaximizeWindowKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.call(MaximizeWindowKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-07-26 19:00:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-26 19:00:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-26 19:00:10 - [MESSAGE][INFO] - User set preference: ['browserName', 'safari']
+
+2023-07-26 19:00:10 - [MESSAGE][INFO] - User set preference: ['platformName', 'iOS']
+
+2023-07-26 19:00:10 - [MESSAGE][INFO] - User set preference: ['browserVersion', 'latest']
+
+2023-07-26 19:00:10 - [MESSAGE][INFO] - User set preference: ['deviceName', 'iPhone iPhone 14 Pro']
+
+2023-07-26 19:00:10 - [MESSAGE][INFO] - User set preference: ['platformVersion', '16.5.1']
+
+2023-07-26 19:00:10 - [MESSAGE][INFO] - User set preference: ['deviceId', 'apple_iphone_14_pro']
+
+2023-07-26 19:00:10 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1221318, tunnelId=dc092cbc-975b-4edc-acb4-46a8e236a020, deviceVersion=16.5.1, deviceId=apple_iphone_14_pro, usingTunnel=true}']
+
+2023-07-26 19:00:10 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-07-26 19:00:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-26 19:01:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-26 19:01:27 - [TEST_STEP][FAILED] - maximizeWindow(): Unable to maximize current window (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:283)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$0.call(Unknown Source)
+	at TestTunnel4Demoqa.run(TestTunnel4Demoqa:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690377867365.run(TempTestSuite1690377867365.groovy:36)
+Caused by: org.openqa.selenium.UnsupportedCommandException: Method has not yet been implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'INBL01LAP31245', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {appium:deviceName: iPhone_14_Pro_real_us, appiumData: {appiumVersion: 1.22.2, automationName: XCUITest}, automationName: XCUITest, browserName: safari, browserVersion: latest, databaseEnabled: false, deviceContextId: cea30fa1-182b-4de0-b93a-51a..., deviceName: 00008120-0012194E01D3401E, javascriptEnabled: true, jobUuid: ad23dc4555d34ff5aeed47c275c..., katalon:option: {apiKey: 71bc3dda-0dca-4ef8-bf5b-eba..., class: com.katalon.testcloud.grid...., deviceId: apple_iphone_14_pro, deviceVersion: 16.5.1, group: eb1bcca9-4f33-4203-ae23-adf..., organizationId: 1221318, runFromTestCloud: true, teamId: 1170312, tenant: KatalonStudio, tunnelMetadataId: dc092cbc-975b-4edc-acb4-46a..., unlimitedExecutionMinutes: true, userId: 1243919, usingTunnel: true}, locationContextEnabled: false, networkConnectionEnabled: false, orientation: PORTRAIT, platform: IOS, platformName: IOS, platformVersion: 16.5.1, proxy: Proxy(pac: http://tunnel-ma..., requestId: e47cbfd3-64a6-406b-a328-5d7..., sauce:options: {build: TestCloud Automated Test Se..., commandTimeouts: 60000, name: TestCloud Automated Test Se..., realDevice: true, tunnelIdentifier: e47cbfd3-64a6-406b-a328-5d7...}, takesScreenshot: true, testobject_device: iPhone_14_Pro_real_us, testobject_device_name: iPhone 14 Pro, testobject_device_session_id: bf04fa89-2521-46d0-89c6-7fe..., testobject_test_report_api_url: https://api.us-west-1.*****..., testobject_test_report_url: https://app.*********.com/t..., testobject_user_id: coty_katalon, udid: 00008120-0012194E01D3401E, usedCachedDevice: false, version: latest, webDriverAgentUrl: http://127.0.0.1:5701, webStorageEnabled: false}
+Session ID: 5d65aa31-aa27-4c79-a21c-973f08ba870c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWindow.maximize(EventFiringWebDriver.java:769)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.doCall(MaximizeWindowKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.call(MaximizeWindowKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:283)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$0.call(Unknown Source)
+	at Script1690371234682.run(Script1690371234682.groovy:22)
+	... 16 more
+)
+
+2023-07-26 19:01:39 - [MESSAGE][FAILED] - Unable to maximize current window (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:283)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$0.call(Unknown Source)
+	at TestTunnel4Demoqa.run(TestTunnel4Demoqa:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690377867365.run(TempTestSuite1690377867365.groovy:36)
+Caused by: org.openqa.selenium.UnsupportedCommandException: Method has not yet been implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'INBL01LAP31245', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {appium:deviceName: iPhone_14_Pro_real_us, appiumData: {appiumVersion: 1.22.2, automationName: XCUITest}, automationName: XCUITest, browserName: safari, browserVersion: latest, databaseEnabled: false, deviceContextId: cea30fa1-182b-4de0-b93a-51a..., deviceName: 00008120-0012194E01D3401E, javascriptEnabled: true, jobUuid: ad23dc4555d34ff5aeed47c275c..., katalon:option: {apiKey: 71bc3dda-0dca-4ef8-bf5b-eba..., class: com.katalon.testcloud.grid...., deviceId: apple_iphone_14_pro, deviceVersion: 16.5.1, group: eb1bcca9-4f33-4203-ae23-adf..., organizationId: 1221318, runFromTestCloud: true, teamId: 1170312, tenant: KatalonStudio, tunnelMetadataId: dc092cbc-975b-4edc-acb4-46a..., unlimitedExecutionMinutes: true, userId: 1243919, usingTunnel: true}, locationContextEnabled: false, networkConnectionEnabled: false, orientation: PORTRAIT, platform: IOS, platformName: IOS, platformVersion: 16.5.1, proxy: Proxy(pac: http://tunnel-ma..., requestId: e47cbfd3-64a6-406b-a328-5d7..., sauce:options: {build: TestCloud Automated Test Se..., commandTimeouts: 60000, name: TestCloud Automated Test Se..., realDevice: true, tunnelIdentifier: e47cbfd3-64a6-406b-a328-5d7...}, takesScreenshot: true, testobject_device: iPhone_14_Pro_real_us, testobject_device_name: iPhone 14 Pro, testobject_device_session_id: bf04fa89-2521-46d0-89c6-7fe..., testobject_test_report_api_url: https://api.us-west-1.*****..., testobject_test_report_url: https://app.*********.com/t..., testobject_user_id: coty_katalon, udid: 00008120-0012194E01D3401E, usedCachedDevice: false, version: latest, webDriverAgentUrl: http://127.0.0.1:5701, webStorageEnabled: false}
+Session ID: 5d65aa31-aa27-4c79-a21c-973f08ba870c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWindow.maximize(EventFiringWebDriver.java:769)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.doCall(MaximizeWindowKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.call(MaximizeWindowKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:283)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$0.call(Unknown Source)
+	at Script1690371234682.run(Script1690371234682.groovy:22)
+	... 16 more
+)
+[[ATTACHMENT|C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\Reports\\20230726_185427\\New Test Suite3_Qa\\20230726_185427\\1690378288264.png]]]]></system-out>
+         <system-err><![CDATA[2023-07-26 19:00:06 - [TEST_CASE][FAILED] - Test Cases/TestTunnel4Demoqa: Test Cases/TestTunnel4Demoqa FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:283)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$0.call(Unknown Source)
+	at TestTunnel4Demoqa.run(TestTunnel4Demoqa:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690377867365.run(TempTestSuite1690377867365.groovy:36)
+Caused by: org.openqa.selenium.UnsupportedCommandException: Method has not yet been implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'INBL01LAP31245', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {appium:deviceName: iPhone_14_Pro_real_us, appiumData: {appiumVersion: 1.22.2, automationName: XCUITest}, automationName: XCUITest, browserName: safari, browserVersion: latest, databaseEnabled: false, deviceContextId: cea30fa1-182b-4de0-b93a-51a..., deviceName: 00008120-0012194E01D3401E, javascriptEnabled: true, jobUuid: ad23dc4555d34ff5aeed47c275c..., katalon:option: {apiKey: 71bc3dda-0dca-4ef8-bf5b-eba..., class: com.katalon.testcloud.grid...., deviceId: apple_iphone_14_pro, deviceVersion: 16.5.1, group: eb1bcca9-4f33-4203-ae23-adf..., organizationId: 1221318, runFromTestCloud: true, teamId: 1170312, tenant: KatalonStudio, tunnelMetadataId: dc092cbc-975b-4edc-acb4-46a..., unlimitedExecutionMinutes: true, userId: 1243919, usingTunnel: true}, locationContextEnabled: false, networkConnectionEnabled: false, orientation: PORTRAIT, platform: IOS, platformName: IOS, platformVersion: 16.5.1, proxy: Proxy(pac: http://tunnel-ma..., requestId: e47cbfd3-64a6-406b-a328-5d7..., sauce:options: {build: TestCloud Automated Test Se..., commandTimeouts: 60000, name: TestCloud Automated Test Se..., realDevice: true, tunnelIdentifier: e47cbfd3-64a6-406b-a328-5d7...}, takesScreenshot: true, testobject_device: iPhone_14_Pro_real_us, testobject_device_name: iPhone 14 Pro, testobject_device_session_id: bf04fa89-2521-46d0-89c6-7fe..., testobject_test_report_api_url: https://api.us-west-1.*****..., testobject_test_report_url: https://app.*********.com/t..., testobject_user_id: coty_katalon, udid: 00008120-0012194E01D3401E, usedCachedDevice: false, version: latest, webDriverAgentUrl: http://127.0.0.1:5701, webStorageEnabled: false}
+Session ID: 5d65aa31-aa27-4c79-a21c-973f08ba870c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWindow.maximize(EventFiringWebDriver.java:769)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.doCall(MaximizeWindowKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.call(MaximizeWindowKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-26 18:54:45 - [TEST_SUITE][FAILED] - New Test Suite3_Qa: Test Cases/TestTunnel4Demoqa FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:283)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$0.call(Unknown Source)
+	at TestTunnel4Demoqa.run(TestTunnel4Demoqa:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690377867365.run(TempTestSuite1690377867365.groovy:36)
+Caused by: org.openqa.selenium.UnsupportedCommandException: Method has not yet been implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'INBL01LAP31245', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {appium:deviceName: iPhone_14_Pro_real_us, appiumData: {appiumVersion: 1.22.2, automationName: XCUITest}, automationName: XCUITest, browserName: safari, browserVersion: latest, databaseEnabled: false, deviceContextId: 656324b0-60d6-4060-9a11-32b..., deviceName: 00008120-001A685C1E07C01E, javascriptEnabled: true, jobUuid: 71e7fd6d16aa4be7b0a6dd1f542..., katalon:option: {apiKey: 71bc3dda-0dca-4ef8-bf5b-eba..., class: com.katalon.testcloud.grid...., deviceId: apple_iphone_14_pro, deviceVersion: 16.5.1, group: eb1bcca9-4f33-4203-ae23-adf..., organizationId: 1221318, runFromTestCloud: true, teamId: 1170312, tenant: KatalonStudio, tunnelMetadataId: dc092cbc-975b-4edc-acb4-46a..., unlimitedExecutionMinutes: true, userId: 1243919, usingTunnel: true}, locationContextEnabled: false, networkConnectionEnabled: false, orientation: PORTRAIT, platform: IOS, platformName: IOS, platformVersion: 16.5.1, proxy: Proxy(pac: http://tunnel-ma..., requestId: 4d7695b0-7fba-4fe9-bcf3-dc2..., sauce:options: {build: TestCloud Automated Test Se..., commandTimeouts: 60000, name: TestCloud Automated Test Se..., realDevice: true, tunnelIdentifier: 4d7695b0-7fba-4fe9-bcf3-dc2...}, takesScreenshot: true, testobject_device: iPhone_14_Pro_real_us, testobject_device_name: iPhone 14 Pro, testobject_device_session_id: 30df6edc-58c5-4d67-8b6e-704..., testobject_test_report_api_url: https://api.us-west-1.*****..., testobject_test_report_url: https://app.*********.com/t..., testobject_user_id: coty_katalon, udid: 00008120-001A685C1E07C01E, usedCachedDevice: false, version: latest, webDriverAgentUrl: http://127.0.0.1:5721, webStorageEnabled: false}
+Session ID: 980b9133-2515-4fb4-ba89-cab491dd9bf5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWindow.maximize(EventFiringWebDriver.java:769)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.doCall(MaximizeWindowKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.call(MaximizeWindowKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-07-26 18:54:45 - [TEST_SUITE][FAILED] - New Test Suite3_Qa: Test Cases/TestTunnel4Demoqa FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:283)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$0.call(Unknown Source)
+	at TestTunnel4Demoqa.run(TestTunnel4Demoqa:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690377867365.run(TempTestSuite1690377867365.groovy:36)
+Caused by: org.openqa.selenium.UnsupportedCommandException: Method has not yet been implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'INBL01LAP31245', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {appium:deviceName: iPhone_14_Pro_real_us, appiumData: {appiumVersion: 1.22.2, automationName: XCUITest}, automationName: XCUITest, browserName: safari, browserVersion: latest, databaseEnabled: false, deviceContextId: 656324b0-60d6-4060-9a11-32b..., deviceName: 00008120-001A685C1E07C01E, javascriptEnabled: true, jobUuid: 71e7fd6d16aa4be7b0a6dd1f542..., katalon:option: {apiKey: 71bc3dda-0dca-4ef8-bf5b-eba..., class: com.katalon.testcloud.grid...., deviceId: apple_iphone_14_pro, deviceVersion: 16.5.1, group: eb1bcca9-4f33-4203-ae23-adf..., organizationId: 1221318, runFromTestCloud: true, teamId: 1170312, tenant: KatalonStudio, tunnelMetadataId: dc092cbc-975b-4edc-acb4-46a..., unlimitedExecutionMinutes: true, userId: 1243919, usingTunnel: true}, locationContextEnabled: false, networkConnectionEnabled: false, orientation: PORTRAIT, platform: IOS, platformName: IOS, platformVersion: 16.5.1, proxy: Proxy(pac: http://tunnel-ma..., requestId: 4d7695b0-7fba-4fe9-bcf3-dc2..., sauce:options: {build: TestCloud Automated Test Se..., commandTimeouts: 60000, name: TestCloud Automated Test Se..., realDevice: true, tunnelIdentifier: 4d7695b0-7fba-4fe9-bcf3-dc2...}, takesScreenshot: true, testobject_device: iPhone_14_Pro_real_us, testobject_device_name: iPhone 14 Pro, testobject_device_session_id: 30df6edc-58c5-4d67-8b6e-704..., testobject_test_report_api_url: https://api.us-west-1.*****..., testobject_test_report_url: https://app.*********.com/t..., testobject_user_id: coty_katalon, udid: 00008120-001A685C1E07C01E, usedCachedDevice: false, version: latest, webDriverAgentUrl: http://127.0.0.1:5721, webStorageEnabled: false}
+Session ID: 980b9133-2515-4fb4-ba89-cab491dd9bf5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWindow.maximize(EventFiringWebDriver.java:769)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.doCall(MaximizeWindowKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.call(MaximizeWindowKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

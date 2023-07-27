@@ -7,7 +7,7 @@
       "proposedLocator": "path",
       "proposedLocatorMethod": "CSS",
       "recoveryMethod": "CSS",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/DemoqaText/Page_DEMOQA/path_CSS.png"
+      "pathToScreenshot": "Reports/20230726_181725/New Test Suite3_Qa/20230726_181725/Object Repository/DemoqaText/Page_DEMOQA/path_CSS.png"
     },
     {
       "approved": true,
@@ -17,7 +17,7 @@
       "proposedLocator": "//input",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/DemoqaText/Page_DEMOQA/input_Full Name_userName_position.png"
+      "pathToScreenshot": "Reports/20230726_181725/New Test Suite3_Qa/20230726_181725/Object Repository/DemoqaText/Page_DEMOQA/input_Full Name_userName_position.png"
     }
   ]
 }
