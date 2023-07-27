@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="OrangeHRM Suite" time="503.513" tests="3" failures="1" errors="0">
+   <testsuite name="OrangeHRM Suite" tests="3" failures="1" errors="0" time="503.513" skipped="0" timestamp="2023-07-27 14:18:57" hostname="satyasai.samoju - INBL01LAP31245.brd.g-c-i.com" id="Test Suites/OrangeHRM Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\Reports\\20230727_141847\\OrangeHRM Suite\\20230727_141847"/>
+         <property name="logFiles" value="C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\Reports\\20230727_141847\\OrangeHRM Suite\\20230727_141847\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\Reports\\20230727_141847\\OrangeHRM Suite\\20230727_141847\\1690448019493.png, C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\Reports\\20230727_141847\\OrangeHRM Suite\\20230727_141847\\1690448019921.png, C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\Reports\\20230727_141847\\OrangeHRM Suite\\20230727_141847\\1690448161392.png, C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\Reports\\20230727_141847\\OrangeHRM Suite\\20230727_141847\\1690448161706.png, C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\Reports\\20230727_141847\\OrangeHRM Suite\\20230727_141847\\1690448195114.png, C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\Reports\\20230727_141847\\OrangeHRM Suite\\20230727_141847\\1690448195407.png, C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\Reports\\20230727_141847\\OrangeHRM Suite\\20230727_141847\\1690448240919.png, C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\Reports\\20230727_141847\\OrangeHRM Suite\\20230727_141847\\1690448241223.png"/>
+         <property name="hostName" value="satyasai.samoju - INBL01LAP31245.brd.g-c-i.com"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="b1e6d0b3ffb222c76c0176b8f1e6dab8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/OrangeHRM" time="79.851" classname="Test Cases/OrangeHRM" status="PASSED">
+         <system-out><![CDATA[2023-07-27 14:18:58 - [TEST_CASE][PASSED] - Test Cases/OrangeHRM: Test Cases/OrangeHRM
+
+2023-07-27 14:18:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-27 14:18:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-27 14:18:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-27 14:19:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-27 14:19:02 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-07-27 14:19:53 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-07-27 14:19:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-27 14:19:53 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-27 14:19:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange_HRM_VerifyText/Page_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Orange_HRM_VerifyText/Page_OrangeHRM/input_Username_username'
+
+2023-07-27 14:19:57 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Orange_HRM_VerifyText/Page_OrangeHRM/input_Username_username'
+
+2023-07-27 14:19:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Orange_HRM_VerifyText/Page_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Orange_HRM_VerifyText/Page_OrangeHRM/input_Password_password'
+
+2023-07-27 14:19:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Orange_HRM_VerifyText/Page_OrangeHRM/input_Password_password'
+
+2023-07-27 14:19:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM_VerifyText/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Orange_HRM_VerifyText/Page_OrangeHRM/button_Login' is clicked on
+
+2023-07-27 14:20:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM_VerifyText/Page_OrangeHRM/button_Login' is clicked on
+
+2023-07-27 14:20:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM_VerifyText/Page_OrangeHRM/a_Admin")): Object: 'Object Repository/Orange_HRM_VerifyText/Page_OrangeHRM/a_Admin' is clicked on
+
+2023-07-27 14:20:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM_VerifyText/Page_OrangeHRM/a_Admin' is clicked on
+
+2023-07-27 14:20:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange_HRM_VerifyText/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus"), "satyasaee"): Text 'satyasaee' is set on object 'Object Repository/Orange_HRM_VerifyText/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'
+
+2023-07-27 14:20:11 - [MESSAGE][PASSED] - Text 'satyasaee' is set on object 'Object Repository/Orange_HRM_VerifyText/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'
+
+2023-07-27 14:20:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM_VerifyText/Page_OrangeHRM/button_Search")): Object: 'Object Repository/Orange_HRM_VerifyText/Page_OrangeHRM/button_Search' is clicked on
+
+2023-07-27 14:20:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM_VerifyText/Page_OrangeHRM/button_Search' is clicked on
+
+2023-07-27 14:20:12 - [TEST_STEP][PASSED] - text = verifyElementText(findTestObject("Object Repository/Orange_HRM_VerifyText/Page_OrangeHRM/span_No Records Found"), "No Records Found"): Actual text and expected text of test object 'Object Repository/Orange_HRM_VerifyText/Page_OrangeHRM/span_No Records Found' are matched.
+
+2023-07-27 14:20:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Orange_HRM_VerifyText/Page_OrangeHRM/span_No Records Found' are matched.
+
+2023-07-27 14:20:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-27 14:20:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-27 14:20:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-27 14:20:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OrangeHrm Add Emp" time="95.465" classname="Test Cases/OrangeHrm Add Emp" status="PASSED">
+         <system-out><![CDATA[2023-07-27 14:20:18 - [TEST_CASE][PASSED] - Test Cases/OrangeHrm Add Emp: Test Cases/OrangeHrm Add Emp
+
+2023-07-27 14:20:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Orange HRM LogIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Orange HRM LogIN' successfully
+
+2023-07-27 14:20:18 - [TEST_CASE][PASSED] - Test Cases/Orange HRM LogIN: Test Cases/Orange HRM LogIN
+
+2023-07-27 14:20:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-27 14:20:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-27 14:20:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-27 14:20:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-27 14:20:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-27 14:20:23 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-27 14:20:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-27 14:20:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-27 14:20:26 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-07-27 14:21:27 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-07-27 14:21:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Username_username'
+
+2023-07-27 14:21:33 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Username_username'
+
+2023-07-27 14:21:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Password_password'
+
+2023-07-27 14:21:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Password_password'
+
+2023-07-27 14:21:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/button_Login")): Object: 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/button_Login' is clicked on
+
+2023-07-27 14:21:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/button_Login' is clicked on
+
+2023-07-27 14:21:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Orange HRM LogIN' successfully
+
+2023-07-27 14:21:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/a_PIM")): Object: 'Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/a_PIM' is clicked on
+
+2023-07-27 14:21:41 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/a_PIM' is clicked on
+
+2023-07-27 14:21:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/a_Add Employee")): Object: 'Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/a_Add Employee' is clicked on
+
+2023-07-27 14:21:46 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/a_Add Employee' is clicked on
+
+2023-07-27 14:21:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/input_Employee Full Name_firstName"), "Vijaysai"): Text 'Vijaysai' is set on object 'Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/input_Employee Full Name_firstName'
+
+2023-07-27 14:21:48 - [MESSAGE][PASSED] - Text 'Vijaysai' is set on object 'Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/input_Employee Full Name_firstName'
+
+2023-07-27 14:21:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/input_Employee Full Name_lastName"), "dundi"): Text 'dundi' is set on object 'Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/input_Employee Full Name_lastName'
+
+2023-07-27 14:21:49 - [MESSAGE][PASSED] - Text 'dundi' is set on object 'Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/input_Employee Full Name_lastName'
+
+2023-07-27 14:21:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--active"), "0362"): Text '0362' is set on object 'Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--active'
+
+2023-07-27 14:21:50 - [MESSAGE][PASSED] - Text '0362' is set on object 'Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--active'
+
+2023-07-27 14:21:50 - [TEST_STEP][PASSED] - id = verifyElementPresent(findTestObject("OrangeHRM Add Emp/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus"), 0): Object 'Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus' is present
+
+2023-07-27 14:21:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-27 14:21:51 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus' is present
+
+2023-07-27 14:21:51 - [TEST_STEP][PASSED] - println(id): null
+
+2023-07-27 14:21:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/button_Save")): Object: 'Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/button_Save' is clicked on
+
+2023-07-27 14:21:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/button_Save' is clicked on
+
+2023-07-27 14:21:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-27 14:21:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Emp Verify Oragge Hrm" time="45.781" classname="Test Cases/Emp Verify Oragge Hrm" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Emp Verify Oragge Hrm FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Emp Verify Oragge Hrm.run(Emp Verify Oragge Hrm:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690447727484.run(TempTestSuite1690447727484.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '(1) Record Found' and expected text '(5) Records Found' of test object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-07-27 14:26:35 - [TEST_CASE][FAILED] - Test Cases/Emp Verify Oragge Hrm: Test Cases/Emp Verify Oragge Hrm FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Emp Verify Oragge Hrm.run(Emp Verify Oragge Hrm:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690447727484.run(TempTestSuite1690447727484.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '(1) Record Found' and expected text '(5) Records Found' of test object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-07-27 14:26:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Orange HRM LogIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Orange HRM LogIN' successfully
+
+2023-07-27 14:26:35 - [TEST_CASE][PASSED] - Test Cases/Orange HRM LogIN: Test Cases/Orange HRM LogIN
+
+2023-07-27 14:26:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-27 14:26:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-27 14:26:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-27 14:26:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-27 14:26:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-27 14:26:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-27 14:26:42 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-27 14:26:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-27 14:26:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-27 14:26:45 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-07-27 14:26:57 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-07-27 14:26:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Username_username'
+
+2023-07-27 14:27:03 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Username_username'
+
+2023-07-27 14:27:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Password_password'
+
+2023-07-27 14:27:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Password_password'
+
+2023-07-27 14:27:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/button_Login")): Object: 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/button_Login' is clicked on
+
+2023-07-27 14:27:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/button_Login' is clicked on
+
+2023-07-27 14:27:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Orange HRM LogIN' successfully
+
+2023-07-27 14:27:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/a_PIM")): Object: 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/a_PIM' is clicked on
+
+2023-07-27 14:27:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/a_PIM' is clicked on
+
+2023-07-27 14:27:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/input"), "Vijay"): Text 'Vijay' is set on object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/input'
+
+2023-07-27 14:27:19 - [MESSAGE][PASSED] - Text 'Vijay' is set on object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/input'
+
+2023-07-27 14:27:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/button_Search")): Object: 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/button_Search' is clicked on
+
+2023-07-27 14:27:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/button_Search' is clicked on
+
+2023-07-27 14:27:19 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found"), "(5) Records Found"): Verify element text of test object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Emp Verify Oragge Hrm.run(Emp Verify Oragge Hrm:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690447727484.run(TempTestSuite1690447727484.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '(1) Record Found' and expected text '(5) Records Found' of test object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+
+2023-07-27 14:27:21 - [MESSAGE][FAILED] - Actual text '(1) Record Found' and expected text '(5) Records Found' of test object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '(1) Record Found' and expected text '(5) Records Found' of test object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Emp Verify Oragge Hrm.run(Emp Verify Oragge Hrm:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690447727484.run(TempTestSuite1690447727484.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\Reports\\20230727_141847\\OrangeHRM Suite\\20230727_141847\\1690448240919.png]]
+
+2023-07-27 14:27:21 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Emp Verify Oragge Hrm.run(Emp Verify Oragge Hrm:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690447727484.run(TempTestSuite1690447727484.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '(1) Record Found' and expected text '(5) Records Found' of test object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+[[ATTACHMENT|C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\Reports\\20230727_141847\\OrangeHRM Suite\\20230727_141847\\1690448241223.png]]]]></system-out>
+         <system-err><![CDATA[2023-07-27 14:26:35 - [TEST_CASE][FAILED] - Test Cases/Emp Verify Oragge Hrm: Test Cases/Emp Verify Oragge Hrm FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Emp Verify Oragge Hrm.run(Emp Verify Oragge Hrm:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690447727484.run(TempTestSuite1690447727484.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '(1) Record Found' and expected text '(5) Records Found' of test object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-27 14:18:57 - [TEST_SUITE][FAILED] - OrangeHRM Suite: Test Cases/Emp Verify Oragge Hrm FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Emp Verify Oragge Hrm.run(Emp Verify Oragge Hrm:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690447727484.run(TempTestSuite1690447727484.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '(1) Record Found' and expected text '(5) Records Found' of test object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-07-27 14:18:57 - [TEST_SUITE][FAILED] - OrangeHRM Suite: Test Cases/Emp Verify Oragge Hrm FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Emp Verify Oragge Hrm.run(Emp Verify Oragge Hrm:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690447727484.run(TempTestSuite1690447727484.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '(1) Record Found' and expected text '(5) Records Found' of test object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

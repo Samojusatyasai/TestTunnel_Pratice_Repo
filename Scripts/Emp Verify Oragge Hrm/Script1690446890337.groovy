@@ -19,23 +19,18 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Orange HRM LogIN'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/a_PIM'))
+WebUI.click(findTestObject('Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/a_PIM'))
 
-WebUI.click(findTestObject('Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/a_Add Employee'))
+WebUI.setText(findTestObject('Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/input'), 'Vijay')
 
-WebUI.setText(findTestObject('Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/input_Employee Full Name_firstName'), 'Vijaysai')
+WebUI.click(findTestObject('Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/button_Search'))
 
-WebUI.setText(findTestObject('Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/input_Employee Full Name_lastName'), 'dundi')
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found'), 
+    '(5) Records Found')
 
-WebUI.setText(findTestObject('Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--active'), 
-    '0362')
+data = WebUI.click(findTestObject('Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/div_03780362Vijaysai dundi'))
 
-id = WebUI.verifyElementPresent(findTestObject('OrangeHRM Add Emp/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus'), 
-    0)
-
-println(id)
-
-WebUI.click(findTestObject('Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/button_Save'))
+println(data)
 
 WebUI.closeBrowser()
 

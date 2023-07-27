@@ -17,25 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Orange HRM LogIN'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/a_PIM'))
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/a_Add Employee'))
+WebUI.delay(3)
 
-WebUI.setText(findTestObject('Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/input_Employee Full Name_firstName'), 'Vijaysai')
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
-WebUI.setText(findTestObject('Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/input_Employee Full Name_lastName'), 'dundi')
+WebUI.setText(findTestObject('Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Username_username'), 'Admin')
 
-WebUI.setText(findTestObject('Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--active'), 
-    '0362')
+WebUI.setEncryptedText(findTestObject('Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
-id = WebUI.verifyElementPresent(findTestObject('OrangeHRM Add Emp/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus'), 
-    0)
-
-println(id)
-
-WebUI.click(findTestObject('Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/button_Save'))
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/button_Login'))
 

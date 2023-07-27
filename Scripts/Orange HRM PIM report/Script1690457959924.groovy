@@ -19,23 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Orange HRM LogIN'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/a_PIM'))
+WebUI.click(findTestObject('Object Repository/Orange HRM PIM Report/Page_OrangeHRM/a_PIM'))
 
-WebUI.click(findTestObject('Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/a_Add Employee'))
+WebUI.click(findTestObject('Object Repository/Orange HRM PIM Report/Page_OrangeHRM/li_Reports'))
 
-WebUI.setText(findTestObject('Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/input_Employee Full Name_firstName'), 'Vijaysai')
+WebUI.setText(findTestObject('Object Repository/Orange HRM PIM Report/Page_OrangeHRM/input'), 'satyasai')
 
-WebUI.setText(findTestObject('Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/input_Employee Full Name_lastName'), 'dundi')
+WebUI.click(findTestObject('Object Repository/Orange HRM PIM Report/Page_OrangeHRM/button_Search'))
 
-WebUI.setText(findTestObject('Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--active'), 
-    '0362')
+WebUI.click(findTestObject('Object Repository/Orange HRM PIM Report/Page_OrangeHRM/i_Actions_oxd-icon bi-check oxd-checkbox-in_fe61ad'))
 
-id = WebUI.verifyElementPresent(findTestObject('OrangeHRM Add Emp/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus'), 
-    0)
+WebUI.click(findTestObject('Object Repository/Orange HRM PIM Report/Page_OrangeHRM/i_All Employee Sub Unit Hierarchy Report_ox_1ff162'))
 
-println(id)
+WebUI.click(findTestObject('Object Repository/Orange HRM PIM Report/Page_OrangeHRM/i_Location_oxd-icon bi-x --clear'))
 
-WebUI.click(findTestObject('Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/button_Save'))
+WebUI.click(findTestObject('Object Repository/Orange HRM PIM Report/Page_OrangeHRM/button_Save'))
 
 WebUI.closeBrowser()
 
