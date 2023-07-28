@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form_Job Title-- Select --Vacancy-- Select _ccb686</name>
+   <tag></tag>
+   <elementGuidId>80205f6e-bb77-47fa-abdd-a94703162f70</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>form.oxd-form</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div/div[2]/form</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>form</value>
+      <webElementGuid>e35380de-deba-4836-9957-349aaa8b5737</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oxd-form</value>
+      <webElementGuid>58c289bc-54f1-4ee9-84a0-da690aee460c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Job Title-- Select --Vacancy-- Select --Hiring Manager-- Select --StatusINTERVIEW SCHEDULEDCandidate NameInvalidKeywordsDate of Application Method of Application-- Select -- Reset  Search </value>
+      <webElementGuid>9b746dc7-9944-4f58-9b51-a9efd5c59a7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-candidate-page&quot;]/div[@class=&quot;oxd-table-filter&quot;]/div[@class=&quot;oxd-table-filter-area&quot;]/form[@class=&quot;oxd-form&quot;]</value>
+      <webElementGuid>cd7eda5e-71ce-4106-9e4f-2546d97304d2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div/div[2]/form</value>
+      <webElementGuid>6499d994-7f29-4318-83ac-75b4b1cd3662</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form</value>
+      <webElementGuid>c906e65c-8181-4767-b17c-28ff26bbd23f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//form[(text() = 'Job Title-- Select --Vacancy-- Select --Hiring Manager-- Select --StatusINTERVIEW SCHEDULEDCandidate NameInvalidKeywordsDate of Application Method of Application-- Select -- Reset  Search ' or . = 'Job Title-- Select --Vacancy-- Select --Hiring Manager-- Select --StatusINTERVIEW SCHEDULEDCandidate NameInvalidKeywordsDate of Application Method of Application-- Select -- Reset  Search ')]</value>
+      <webElementGuid>9592fcd1-0da1-41d4-8d67-c0e4d34f470a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
