@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OrangeHRM Time,Chrome 115.0.0.0,,,2023-07-28 18:53:56,2023-07-28 18:54:41,44.690s,PASSED
+,,,,,,,
+Test Cases/Orange HRM Time,Chrome 115.0.0.0,,,2023-07-28 18:53:56,2023-07-28 18:54:41,44.430s,PASSED
+"callTestCase(findTestCase(""Orange HRM LogIN""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-28 18:53:57,2023-07-28 18:54:36,39.131s,PASSED
+"click(findTestObject(""Object Repository/Orange HRM Time/Page_OrangeHRM/a_Time""))",Chrome 115.0.0.0,,,2023-07-28 18:54:36,2023-07-28 18:54:40,3.730s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-28 18:54:40,2023-07-28 18:54:41,1.227s,PASSED

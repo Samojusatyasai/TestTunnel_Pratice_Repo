@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OrangeHRM Directory TestSuite,Chrome 115.0.0.0,,,2023-07-28 18:38:04,2023-07-28 18:38:49,45.288s,PASSED
+,,,,,,,
+Test Cases/OrangeHRM Directory,Chrome 115.0.0.0,,,2023-07-28 18:38:04,2023-07-28 18:38:49,44.812s,PASSED
+"callTestCase(findTestCase(""Orange HRM LogIN""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-28 18:38:05,2023-07-28 18:38:40,35.370s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM Directory/Page_OrangeHRM/a_Directory""))",Chrome 115.0.0.0,,,2023-07-28 18:38:40,2023-07-28 18:38:43,3.105s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRM Directory/Page_OrangeHRM/input""), ""satyasai"")",Chrome 115.0.0.0,,,2023-07-28 18:38:43,2023-07-28 18:38:45,1.950s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM Directory/Page_OrangeHRM/button_Search""))",Chrome 115.0.0.0,,,2023-07-28 18:38:45,2023-07-28 18:38:46,0.501s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM Directory/Page_OrangeHRM/p_Ganesh  B""))",Chrome 115.0.0.0,,,2023-07-28 18:38:46,2023-07-28 18:38:47,0.616s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM Directory/Page_OrangeHRM/button_Reset""))",Chrome 115.0.0.0,,,2023-07-28 18:38:47,2023-07-28 18:38:48,1.494s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-28 18:38:48,2023-07-28 18:38:49,1.195s,PASSED

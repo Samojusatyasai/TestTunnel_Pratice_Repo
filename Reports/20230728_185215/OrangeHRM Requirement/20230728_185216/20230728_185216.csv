@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OrangeHRM Requirement,Chrome 115.0.0.0,,,2023-07-28 18:52:29,2023-07-28 18:53:00,31.434s,PASSED
+,,,,,,,
+Test Cases/Orange HRM Requirement,Chrome 115.0.0.0,,,2023-07-28 18:52:29,2023-07-28 18:53:00,31.140s,PASSED
+"callTestCase(findTestCase(""Orange HRM LogIN""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-28 18:52:29,2023-07-28 18:52:50,21.204s,PASSED
+"click(findTestObject(""Object Repository/OrangrHRM Requirement/Page_OrangeHRM/span_Recruitment""))",Chrome 115.0.0.0,,,2023-07-28 18:52:50,2023-07-28 18:52:55,4.595s,PASSED
+"setText(findTestObject(""Object Repository/OrangrHRM Requirement/Page_OrangeHRM/input""), ""satyasai"")",Chrome 115.0.0.0,,,2023-07-28 18:52:55,2023-07-28 18:52:58,2.588s,PASSED
+"click(findTestObject(""Object Repository/OrangrHRM Requirement/Page_OrangeHRM/button_Search""))",Chrome 115.0.0.0,,,2023-07-28 18:52:58,2023-07-28 18:52:58,0.559s,PASSED
+"click(findTestObject(""Object Repository/OrangrHRM Requirement/Page_OrangeHRM/button_Reset""))",Chrome 115.0.0.0,,,2023-07-28 18:52:58,2023-07-28 18:52:59,0.547s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-28 18:52:59,2023-07-28 18:53:00,1.305s,PASSED

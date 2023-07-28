@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OrangeHRM Suite,Chrome 115.0.0.0,,,2023-07-28 18:28:47,2023-07-28 18:35:16,6m - 29.558s,FAILED
+,,,,,,,
+Test Cases/Orange HRM LogIN,Chrome 115.0.0.0,,,2023-07-28 18:28:47,2023-07-28 18:29:25,37.377s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-28 18:28:48,2023-07-28 18:28:54,6.323s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-07-28 18:28:54,2023-07-28 18:28:54,0.175s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-07-28 18:28:54,2023-07-28 18:28:57,3.053s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 115.0.0.0,,,2023-07-28 18:28:57,2023-07-28 18:29:19,21.423s,PASSED
+"setText(findTestObject(""Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 115.0.0.0,,,2023-07-28 18:29:19,2023-07-28 18:29:21,2.253s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 115.0.0.0,,,2023-07-28 18:29:21,2023-07-28 18:29:22,1.002s,PASSED
+"click(findTestObject(""Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/button_Login""))",Chrome 115.0.0.0,,,2023-07-28 18:29:22,2023-07-28 18:29:24,2.508s,PASSED
+,,,,,,,
+Test Cases/Emp Verify Oragge Hrm,Chrome 115.0.0.0,,,2023-07-28 18:33:10,2023-07-28 18:34:16,1m - 5.055s,FAILED
+"callTestCase(findTestCase(""Orange HRM LogIN""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-28 18:33:11,2023-07-28 18:33:33,22.842s,PASSED
+"click(findTestObject(""Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/a_PIM""))",Chrome 115.0.0.0,,,2023-07-28 18:33:33,2023-07-28 18:33:37,4.105s,PASSED
+"setText(findTestObject(""Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/input""), ""Vijay"")",Chrome 115.0.0.0,,,2023-07-28 18:33:37,2023-07-28 18:33:40,2.701s,PASSED
+"click(findTestObject(""Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/button_Search""))",Chrome 115.0.0.0,,,2023-07-28 18:33:40,2023-07-28 18:33:41,0.671s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found""), ""(5) Records Found"")",Chrome 115.0.0.0,,,2023-07-28 18:33:41,2023-07-28 18:33:41,0.001s,NOT_RUN
+"data = click(findTestObject(""Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/div_03780362Vijaysai dundi""))",Chrome 115.0.0.0,,,2023-07-28 18:33:41,2023-07-28 18:34:16,34.699s,FAILED
+,,,,,,,
+Test Cases/OrangeHrm Add Emp,Chrome 115.0.0.0,,,2023-07-28 18:34:16,2023-07-28 18:35:16,1m - 0.574s,PASSED
+"callTestCase(findTestCase(""Orange HRM LogIN""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-28 18:34:17,2023-07-28 18:35:00,43.034s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/a_PIM""))",Chrome 115.0.0.0,,,2023-07-28 18:35:00,2023-07-28 18:35:06,6.461s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/a_Add Employee""))",Chrome 115.0.0.0,,,2023-07-28 18:35:06,2023-07-28 18:35:08,1.852s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/input_Employee Full Name_firstName""), ""Vijaysai"")",Chrome 115.0.0.0,,,2023-07-28 18:35:08,2023-07-28 18:35:11,3.446s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/input_Employee Full Name_lastName""), ""dundi"")",Chrome 115.0.0.0,,,2023-07-28 18:35:11,2023-07-28 18:35:12,0.968s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--active""), ""0362"")",Chrome 115.0.0.0,,,2023-07-28 18:35:12,2023-07-28 18:35:13,1.027s,PASSED
+"id = verifyElementPresent(findTestObject(""OrangeHRM Add Emp/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus""), 0)",Chrome 115.0.0.0,,,2023-07-28 18:35:13,2023-07-28 18:35:14,0.557s,PASSED
+println(id),Chrome 115.0.0.0,,,2023-07-28 18:35:14,2023-07-28 18:35:14,0.045s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM Add Emp/Page_OrangeHRM/button_Save""))",Chrome 115.0.0.0,,,2023-07-28 18:35:14,2023-07-28 18:35:15,0.697s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-28 18:35:15,2023-07-28 18:35:16,1.459s,PASSED
