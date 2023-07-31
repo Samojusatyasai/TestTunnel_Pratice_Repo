@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite Collection1112" time="102.78" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuite1112" tests="2" failures="0" errors="0" time="87.116" skipped="0" timestamp="2023-07-31 13:41:37" hostname="satyasai.samoju - INBL01LAP31245.brd.g-c-i.com" id="Test Suites/TestSuite1112">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\Reports\\20230731_134126\\TestSuite1112\\20230731_134127"/>
+         <property name="logFiles" value="C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\Reports\\20230731_134126\\TestSuite1112\\20230731_134127\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="satyasai.samoju - INBL01LAP31245.brd.g-c-i.com"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.14"/>
+         <property name="sessionId" value="c1fbb691215b0b9744afd64014de7ca6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Orange HRM Perfomance" time="25.962" classname="Test Cases/Orange HRM Perfomance" status="PASSED">
+         <system-out><![CDATA[2023-07-31 13:41:38 - [TEST_CASE][PASSED] - Test Cases/Orange HRM Perfomance: Test Cases/Orange HRM Perfomance
+
+2023-07-31 13:41:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Orange HRM LogIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Orange HRM LogIN' successfully
+
+2023-07-31 13:41:38 - [TEST_CASE][PASSED] - Test Cases/Orange HRM LogIN: Test Cases/Orange HRM LogIN
+
+2023-07-31 13:41:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-31 13:41:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-31 13:41:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-31 13:41:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-31 13:41:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-31 13:41:43 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-31 13:41:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-31 13:41:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-31 13:41:46 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-07-31 13:41:50 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-07-31 13:41:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Username_username'
+
+2023-07-31 13:41:52 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Username_username'
+
+2023-07-31 13:41:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Password_password'
+
+2023-07-31 13:41:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Password_password'
+
+2023-07-31 13:41:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/button_Login")): Object: 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/button_Login' is clicked on
+
+2023-07-31 13:41:55 - [MESSAGE][PASSED] - Object: 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/button_Login' is clicked on
+
+2023-07-31 13:41:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Orange HRM LogIN' successfully
+
+2023-07-31 13:41:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM Perfomance/Page_OrangeHRM/span_Performance")): Object: 'Object Repository/OrangeHRM Perfomance/Page_OrangeHRM/span_Performance' is clicked on
+
+2023-07-31 13:41:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM Perfomance/Page_OrangeHRM/span_Performance' is clicked on
+
+2023-07-31 13:41:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRM Perfomance/Page_OrangeHRM/input"), "satyasai"): Text 'satyasai' is set on object 'Object Repository/OrangeHRM Perfomance/Page_OrangeHRM/input'
+
+2023-07-31 13:42:01 - [MESSAGE][PASSED] - Text 'satyasai' is set on object 'Object Repository/OrangeHRM Perfomance/Page_OrangeHRM/input'
+
+2023-07-31 13:42:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM Perfomance/Page_OrangeHRM/button_Search")): Object: 'Object Repository/OrangeHRM Perfomance/Page_OrangeHRM/button_Search' is clicked on
+
+2023-07-31 13:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM Perfomance/Page_OrangeHRM/button_Search' is clicked on
+
+2023-07-31 13:42:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM Perfomance/Page_OrangeHRM/button_Reset")): Object: 'Object Repository/OrangeHRM Perfomance/Page_OrangeHRM/button_Reset' is clicked on
+
+2023-07-31 13:42:02 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM Perfomance/Page_OrangeHRM/button_Reset' is clicked on
+
+2023-07-31 13:42:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-31 13:42:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Orange HRM PIM report" time="60.888" classname="Test Cases/Orange HRM PIM report" status="PASSED">
+         <system-out><![CDATA[2023-07-31 13:42:04 - [TEST_CASE][PASSED] - Test Cases/Orange HRM PIM report: Test Cases/Orange HRM PIM report
+
+2023-07-31 13:42:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Orange HRM LogIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Orange HRM LogIN' successfully
+
+2023-07-31 13:42:04 - [TEST_CASE][PASSED] - Test Cases/Orange HRM LogIN: Test Cases/Orange HRM LogIN
+
+2023-07-31 13:42:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-31 13:42:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-31 13:42:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-31 13:42:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-31 13:42:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-31 13:42:09 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-31 13:42:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-31 13:42:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-31 13:42:12 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-07-31 13:42:16 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-07-31 13:42:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Username_username'
+
+2023-07-31 13:42:18 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Username_username'
+
+2023-07-31 13:42:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Password_password'
+
+2023-07-31 13:42:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Password_password'
+
+2023-07-31 13:42:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/button_Login")): Object: 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/button_Login' is clicked on
+
+2023-07-31 13:42:19 - [MESSAGE][PASSED] - Object: 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/button_Login' is clicked on
+
+2023-07-31 13:42:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Orange HRM LogIN' successfully
+
+2023-07-31 13:42:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange HRM PIM Report/Page_OrangeHRM/a_PIM")): Object: 'Object Repository/Orange HRM PIM Report/Page_OrangeHRM/a_PIM' is clicked on
+
+2023-07-31 13:42:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange HRM PIM Report/Page_OrangeHRM/a_PIM' is clicked on
+
+2023-07-31 13:42:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange HRM PIM Report/Page_OrangeHRM/li_Reports")): Object: 'Object Repository/Orange HRM PIM Report/Page_OrangeHRM/li_Reports' is clicked on
+
+2023-07-31 13:42:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange HRM PIM Report/Page_OrangeHRM/li_Reports' is clicked on
+
+2023-07-31 13:42:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange HRM PIM Report/Page_OrangeHRM/input"), "satyasai"): Text 'satyasai' is set on object 'Object Repository/Orange HRM PIM Report/Page_OrangeHRM/input'
+
+2023-07-31 13:42:29 - [MESSAGE][PASSED] - Text 'satyasai' is set on object 'Object Repository/Orange HRM PIM Report/Page_OrangeHRM/input'
+
+2023-07-31 13:42:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange HRM PIM Report/Page_OrangeHRM/button_Search")): Object: 'Object Repository/Orange HRM PIM Report/Page_OrangeHRM/button_Search' is clicked on
+
+2023-07-31 13:42:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange HRM PIM Report/Page_OrangeHRM/button_Search' is clicked on
+
+2023-07-31 13:42:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange HRM PIM Report/Page_OrangeHRM/i_Actions_oxd-icon bi-check oxd-checkbox-in_fe61ad")): Object: 'Object Repository/Orange HRM PIM Report/Page_OrangeHRM/i_Actions_oxd-icon bi-check oxd-checkbox-in_fe61ad' is clicked on
+
+2023-07-31 13:42:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange HRM PIM Report/Page_OrangeHRM/i_Actions_oxd-icon bi-check oxd-checkbox-in_fe61ad' is clicked on
+
+2023-07-31 13:42:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange HRM PIM Report/Page_OrangeHRM/i_All Employee Sub Unit Hierarchy Report_ox_1ff162")): Object: 'Object Repository/Orange HRM PIM Report/Page_OrangeHRM/i_All Employee Sub Unit Hierarchy Report_ox_1ff162' is clicked on
+
+2023-07-31 13:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange HRM PIM Report/Page_OrangeHRM/i_All Employee Sub Unit Hierarchy Report_ox_1ff162' is clicked on
+
+2023-07-31 13:42:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange HRM PIM Report/Page_OrangeHRM/i_Location_oxd-icon bi-x --clear")): Object: 'Object Repository/Orange HRM PIM Report/Page_OrangeHRM/i_Location_oxd-icon bi-x --clear' is clicked on
+
+2023-07-31 13:43:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='app']/div/div[2]/div[2]/div/div/form/div[3]/div/div[7]/div/span[3]/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-07-31 13:43:02 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Orange HRM PIM Report/Page_OrangeHRM/i_Location_oxd-icon bi-x --clear'. Try using Self-healing.
+
+2023-07-31 13:43:03 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Orange HRM PIM Report/Page_OrangeHRM/i_Location_oxd-icon bi-x --clear' was broken. Propose an alternative one: 'id("app")/div[@class="oxd-layout"]/div[@class="oxd-layout-container"]/div[@class="oxd-layout-context"]/div[@class="orangehrm-background-container"]/div[@class="orangehrm-card-container"]/form[@class="oxd-form"]/div[@class="oxd-form-row"]/div[@class="oxd-grid-4 orangehrm-full-width-grid"]/div[@class="oxd-grid-item oxd-grid-item--gutters"]/div[@class="oxd-multiselect-chips-area"]/span[@class="oxd-chip oxd-chip--default oxd-multiselect-chips-selected"]/i[@class="oxd-icon bi-x --clear"]'.
+
+2023-07-31 13:43:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange HRM PIM Report/Page_OrangeHRM/i_Location_oxd-icon bi-x --clear' is clicked on
+
+2023-07-31 13:43:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange HRM PIM Report/Page_OrangeHRM/button_Save")): Object: 'Object Repository/Orange HRM PIM Report/Page_OrangeHRM/button_Save' is clicked on
+
+2023-07-31 13:43:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange HRM PIM Report/Page_OrangeHRM/button_Save' is clicked on
+
+2023-07-31 13:43:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-31 13:43:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-31 13:41:37 - [TEST_SUITE][PASSED] - TestSuite1112: Test Cases/Orange HRM PIM report]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Medi_Change_Fecility_TestSuite,Chrome 115.0.0.0,,,2023-07-28 20:05:57,2023-07-28 20:06:27,29.579s,PASSED
+,,,,,,,
+Test Cases/Medical_Change_Fecility,Chrome 115.0.0.0,,,2023-07-28 20:05:58,2023-07-28 20:06:27,29.088s,PASSED
+"callTestCase(findTestCase(""Appointment_Login""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-28 20:05:58,2023-07-28 20:06:22,23.297s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",Chrome 115.0.0.0,,,2023-07-28 20:06:22,2023-07-28 20:06:22,0.632s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-07-28 20:06:22,2023-07-28 20:06:25,3.062s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-28 20:06:25,2023-07-28 20:06:27,1.445s,PASSED

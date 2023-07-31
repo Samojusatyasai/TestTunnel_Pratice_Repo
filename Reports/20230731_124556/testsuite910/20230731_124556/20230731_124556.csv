@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testsuite910,Chrome 115.0.0.0,,,2023-07-31 12:46:10,2023-07-31 12:50:08,3m - 57.334s,FAILED
+,,,,,,,
+Test Cases/New Test Case4QAForms,Chrome 115.0.0.0,,,2023-07-31 12:48:53,2023-07-31 12:49:45,52.883s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-31 12:48:53,2023-07-31 12:48:58,5.390s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-07-31 12:48:58,2023-07-31 12:48:58,0.139s,PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 115.0.0.0,,,2023-07-31 12:48:58,2023-07-31 12:49:13,14.741s,PASSED
+"click(findTestObject(""QAFormsTest_Suite/Page_DEMOQA/div_Forms""))",Chrome 115.0.0.0,,,2023-07-31 12:49:13,2023-07-31 12:49:45,32.585s,FAILED
+,,,,,,,
+Test Cases/Orange HRM LogIN,Chrome 115.0.0.0,,,2023-07-31 12:49:45,2023-07-31 12:50:08,22.087s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-31 12:49:46,2023-07-31 12:49:52,5.687s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-07-31 12:49:52,2023-07-31 12:49:52,0.141s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-07-31 12:49:52,2023-07-31 12:49:55,3.069s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 115.0.0.0,,,2023-07-31 12:49:55,2023-07-31 12:50:01,5.955s,PASSED
+"setText(findTestObject(""Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 115.0.0.0,,,2023-07-31 12:50:01,2023-07-31 12:50:03,1.943s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 115.0.0.0,,,2023-07-31 12:50:03,2023-07-31 12:50:04,0.843s,PASSED
+"click(findTestObject(""Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/button_Login""))",Chrome 115.0.0.0,,,2023-07-31 12:50:04,2023-07-31 12:50:08,3.947s,PASSED

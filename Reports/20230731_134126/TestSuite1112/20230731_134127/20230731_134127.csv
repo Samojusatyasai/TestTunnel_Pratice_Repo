@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1112,Chrome 115.0.0.0,,,2023-07-31 13:41:37,2023-07-31 13:43:05,1m - 27.116s,PASSED
+,,,,,,,
+Test Cases/Orange HRM Perfomance,Chrome 115.0.0.0,,,2023-07-31 13:41:38,2023-07-31 13:42:04,25.962s,PASSED
+"callTestCase(findTestCase(""Orange HRM LogIN""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-31 13:41:38,2023-07-31 13:41:55,16.617s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM Perfomance/Page_OrangeHRM/span_Performance""))",Chrome 115.0.0.0,,,2023-07-31 13:41:55,2023-07-31 13:41:58,3.403s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRM Perfomance/Page_OrangeHRM/input""), ""satyasai"")",Chrome 115.0.0.0,,,2023-07-31 13:41:58,2023-07-31 13:42:01,2.489s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM Perfomance/Page_OrangeHRM/button_Search""))",Chrome 115.0.0.0,,,2023-07-31 13:42:01,2023-07-31 13:42:01,0.584s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM Perfomance/Page_OrangeHRM/button_Reset""))",Chrome 115.0.0.0,,,2023-07-31 13:42:01,2023-07-31 13:42:02,0.966s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-31 13:42:02,2023-07-31 13:42:04,1.492s,PASSED
+,,,,,,,
+Test Cases/Orange HRM PIM report,Chrome 115.0.0.0,,,2023-07-31 13:42:04,2023-07-31 13:43:05,1m - 0.888s,PASSED
+"callTestCase(findTestCase(""Orange HRM LogIN""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-31 13:42:04,2023-07-31 13:42:19,14.596s,PASSED
+"click(findTestObject(""Object Repository/Orange HRM PIM Report/Page_OrangeHRM/a_PIM""))",Chrome 115.0.0.0,,,2023-07-31 13:42:19,2023-07-31 13:42:24,5.198s,PASSED
+"click(findTestObject(""Object Repository/Orange HRM PIM Report/Page_OrangeHRM/li_Reports""))",Chrome 115.0.0.0,,,2023-07-31 13:42:24,2023-07-31 13:42:27,2.689s,PASSED
+"setText(findTestObject(""Object Repository/Orange HRM PIM Report/Page_OrangeHRM/input""), ""satyasai"")",Chrome 115.0.0.0,,,2023-07-31 13:42:27,2023-07-31 13:42:29,1.947s,PASSED
+"click(findTestObject(""Object Repository/Orange HRM PIM Report/Page_OrangeHRM/button_Search""))",Chrome 115.0.0.0,,,2023-07-31 13:42:29,2023-07-31 13:42:29,0.504s,PASSED
+"click(findTestObject(""Object Repository/Orange HRM PIM Report/Page_OrangeHRM/i_Actions_oxd-icon bi-check oxd-checkbox-in_fe61ad""))",Chrome 115.0.0.0,,,2023-07-31 13:42:29,2023-07-31 13:42:30,0.583s,PASSED
+"click(findTestObject(""Object Repository/Orange HRM PIM Report/Page_OrangeHRM/i_All Employee Sub Unit Hierarchy Report_ox_1ff162""))",Chrome 115.0.0.0,,,2023-07-31 13:42:30,2023-07-31 13:42:31,1.307s,PASSED
+"click(findTestObject(""Object Repository/Orange HRM PIM Report/Page_OrangeHRM/i_Location_oxd-icon bi-x --clear""))",Chrome 115.0.0.0,,,2023-07-31 13:42:31,2023-07-31 13:43:03,31.547s,PASSED
+"click(findTestObject(""Object Repository/Orange HRM PIM Report/Page_OrangeHRM/button_Save""))",Chrome 115.0.0.0,,,2023-07-31 13:43:03,2023-07-31 13:43:03,0.513s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-31 13:43:03,2023-07-31 13:43:05,1.285s,PASSED

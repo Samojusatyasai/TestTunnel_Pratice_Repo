@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Medical_comment_TestSuite,Chrome 115.0.0.0,,,2023-07-31 12:06:59,2023-07-31 12:07:33,33.987s,PASSED
+,,,,,,,
+Test Cases/Medical_Comment,Chrome 115.0.0.0,,,2023-07-31 12:06:59,2023-07-31 12:07:33,33.489s,PASSED
+"callTestCase(findTestCase(""Appointment_Login""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-31 12:07:00,2023-07-31 12:07:19,19.082s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f (1)""))",Chrome 115.0.0.0,,,2023-07-31 12:07:19,2023-07-31 12:07:20,0.648s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs""))",Chrome 115.0.0.0,,,2023-07-31 12:07:20,2023-07-31 12:07:20,0.680s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",Chrome 115.0.0.0,,,2023-07-31 12:07:20,2023-07-31 12:07:21,0.720s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_31""))",Chrome 115.0.0.0,,,2023-07-31 12:07:21,2023-07-31 12:07:22,0.695s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""Appointment booked"")",Chrome 115.0.0.0,,,2023-07-31 12:07:22,2023-07-31 12:07:23,1.153s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 115.0.0.0,,,2023-07-31 12:07:23,2023-07-31 12:07:25,1.741s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 115.0.0.0,,,2023-07-31 12:07:25,2023-07-31 12:07:31,6.878s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-31 12:07:31,2023-07-31 12:07:33,1.365s,PASSED

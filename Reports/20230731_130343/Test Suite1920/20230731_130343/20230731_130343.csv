@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite1920,Chrome 115.0.0.0,,,2023-07-31 13:04:00,2023-07-31 13:08:05,4m - 5.147s,FAILED
+,,,,,,,
+Test Cases/TestTunnel1,Chrome 115.0.0.0,,,2023-07-31 13:04:00,2023-07-31 13:04:15,15.096s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-31 13:04:01,2023-07-31 13:04:07,5.781s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-07-31 13:04:07,2023-07-31 13:04:07,0.168s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 115.0.0.0,,,2023-07-31 13:04:07,2023-07-31 13:04:10,3.056s,PASSED
+delay(4),Chrome 115.0.0.0,,,2023-07-31 13:04:10,2023-07-31 13:04:14,4.101s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-31 13:04:14,2023-07-31 13:04:15,1.389s,PASSED
+,,,,,,,
+Test Cases/TestTunnel2,Chrome 115.0.0.0,,,2023-07-31 13:04:15,2023-07-31 13:04:36,20.914s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-31 13:04:16,2023-07-31 13:04:20,4.189s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-07-31 13:04:20,2023-07-31 13:04:21,0.137s,PASSED
+"navigateToUrl(""https://www.youtube.com/"")",Chrome 115.0.0.0,,,2023-07-31 13:04:21,2023-07-31 13:04:32,11.273s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-07-31 13:04:32,2023-07-31 13:04:35,3.022s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-31 13:04:35,2023-07-31 13:04:36,1.375s,PASSED
+,,,,,,,
+Test Cases/TestTunnel4Demoqa,Chrome 115.0.0.0,,,2023-07-31 13:07:14,2023-07-31 13:08:05,50.834s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-31 13:07:14,2023-07-31 13:07:19,5.276s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-07-31 13:07:19,2023-07-31 13:07:19,0.140s,PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 115.0.0.0,,,2023-07-31 13:07:19,2023-07-31 13:07:29,9.823s,PASSED
+delay(2),Chrome 115.0.0.0,,,2023-07-31 13:07:29,2023-07-31 13:07:31,2.019s,PASSED
+"click(findTestObject(""DemoqaText/Page_DEMOQA/path""))",Chrome 115.0.0.0,,,2023-07-31 13:07:31,2023-07-31 13:08:05,33.559s,FAILED

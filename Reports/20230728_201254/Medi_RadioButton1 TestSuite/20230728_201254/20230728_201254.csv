@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Medi_RadioButton1 TestSuite,Chrome 115.0.0.0,,,2023-07-28 20:13:07,2023-07-28 20:13:34,26.823s,PASSED
+,,,,,,,
+Test Cases/Medical_Radio_Button,Chrome 115.0.0.0,,,2023-07-28 20:13:07,2023-07-28 20:13:34,26.418s,PASSED
+"callTestCase(findTestCase(""Appointment_Login""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-28 20:13:08,2023-07-28 20:13:28,20.653s,PASSED
+"click(findTestObject(""Object Repository/Medical_Radio_Button/Page_CURA Healthcare Service/input_Medicaid_programs""))",Chrome 115.0.0.0,,,2023-07-28 20:13:28,2023-07-28 20:13:29,0.650s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-07-28 20:13:29,2023-07-28 20:13:32,3.047s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-28 20:13:32,2023-07-28 20:13:34,1.365s,PASSED

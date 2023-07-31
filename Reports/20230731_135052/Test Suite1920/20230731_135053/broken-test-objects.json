@@ -1,0 +1,13 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/DemoqaText/Page_DEMOQA/path",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "path",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20230731_135052/Test Suite1920/20230731_135053/Object Repository/DemoqaText/Page_DEMOQA/path_CSS.png"
+    }
+  ]
+}

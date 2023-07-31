@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Medical_comment_TestSuite" time="33.987" tests="1" failures="0" errors="0">
+   <testsuite name="Medical_comment_TestSuite" tests="1" failures="0" errors="0" time="33.987" skipped="0" timestamp="2023-07-31 12:06:59" hostname="satyasai.samoju - INBL01LAP31245.brd.g-c-i.com" id="Test Suites/Medical_comment_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\Reports\\20230731_120602\\Medical_comment_TestSuite\\20230731_120603"/>
+         <property name="logFiles" value="C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\Reports\\20230731_120602\\Medical_comment_TestSuite\\20230731_120603\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="satyasai.samoju - INBL01LAP31245.brd.g-c-i.com"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="dd098e11e34793158602ebb124d45e96"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Medical_Comment" time="33.489" classname="Test Cases/Medical_Comment" status="PASSED">
+         <system-out><![CDATA[2023-07-31 12:06:59 - [TEST_CASE][PASSED] - Test Cases/Medical_Comment: Test Cases/Medical_Comment
+
+2023-07-31 12:07:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Appointment_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Appointment_Login' successfully
+
+2023-07-31 12:07:00 - [TEST_CASE][PASSED] - Test Cases/Appointment_Login: Test Cases/Appointment_Login
+
+2023-07-31 12:07:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-31 12:07:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-31 12:07:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-31 12:07:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-31 12:07:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-31 12:07:07 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-31 12:07:07 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-07-31 12:07:11 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-07-31 12:07:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-07-31 12:07:14 - [MESSAGE][PASSED] - Object: 'Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-07-31 12:07:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/input_Username_username'
+
+2023-07-31 12:07:15 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/input_Username_username'
+
+2023-07-31 12:07:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/input_Password_password'
+
+2023-07-31 12:07:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/input_Password_password'
+
+2023-07-31 12:07:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-07-31 12:07:19 - [MESSAGE][PASSED] - Object: 'Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-07-31 12:07:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Appointment_Login' successfully
+
+2023-07-31 12:07:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f (1)")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f (1)' is clicked on
+
+2023-07-31 12:07:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f (1)' is clicked on
+
+2023-07-31 12:07:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2023-07-31 12:07:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2023-07-31 12:07:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+2023-07-31 12:07:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+2023-07-31 12:07:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/td_31")): Object: 'Object Repository/Page_CURA Healthcare Service/td_31' is clicked on
+
+2023-07-31 12:07:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/td_31' is clicked on
+
+2023-07-31 12:07:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment"), "Appointment booked"): Text 'Appointment booked' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2023-07-31 12:07:23 - [MESSAGE][PASSED] - Text 'Appointment booked' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2023-07-31 12:07:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2023-07-31 12:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2023-07-31 12:07:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+2023-07-31 12:07:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+2023-07-31 12:07:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-31 12:07:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-31 12:06:59 - [TEST_SUITE][PASSED] - Medical_comment_TestSuite: Test Cases/Medical_Comment]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

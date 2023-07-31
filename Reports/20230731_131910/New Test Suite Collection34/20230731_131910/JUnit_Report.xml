@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite Collection34" time="65.42" tests="2" failures="0" errors="0">
+   <testsuite name="New TEstSuite 34" tests="2" failures="0" errors="0" time="46.964" skipped="0" timestamp="2023-07-31 13:19:26" hostname="satyasai.samoju - INBL01LAP31245.brd.g-c-i.com" id="Test Suites/New TEstSuite 34">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\Reports\\20230731_131910\\New TEstSuite 34\\20230731_131911"/>
+         <property name="logFiles" value="C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\Reports\\20230731_131910\\New TEstSuite 34\\20230731_131911\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="satyasai.samoju - INBL01LAP31245.brd.g-c-i.com"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.190.140"/>
+         <property name="sessionId" value="0b5a35d3b0fae8bfb8b701783d474ee2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Emp Verify Oragge Hrm" time="28.789" classname="Test Cases/Emp Verify Oragge Hrm" status="PASSED">
+         <system-out><![CDATA[2023-07-31 13:19:27 - [TEST_CASE][PASSED] - Test Cases/Emp Verify Oragge Hrm: Test Cases/Emp Verify Oragge Hrm
+
+2023-07-31 13:19:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Orange HRM LogIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Orange HRM LogIN' successfully
+
+2023-07-31 13:19:28 - [TEST_CASE][PASSED] - Test Cases/Orange HRM LogIN: Test Cases/Orange HRM LogIN
+
+2023-07-31 13:19:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-31 13:19:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-31 13:19:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-31 13:19:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-31 13:19:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-31 13:19:32 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-31 13:19:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-31 13:19:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-31 13:19:35 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-07-31 13:19:42 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-07-31 13:19:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Username_username'
+
+2023-07-31 13:19:44 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Username_username'
+
+2023-07-31 13:19:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Password_password'
+
+2023-07-31 13:19:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Password_password'
+
+2023-07-31 13:19:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/button_Login")): Object: 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/button_Login' is clicked on
+
+2023-07-31 13:19:46 - [MESSAGE][PASSED] - Object: 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/button_Login' is clicked on
+
+2023-07-31 13:19:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Orange HRM LogIN' successfully
+
+2023-07-31 13:19:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/a_PIM")): Object: 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/a_PIM' is clicked on
+
+2023-07-31 13:19:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/a_PIM' is clicked on
+
+2023-07-31 13:19:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/input"), "Vijay"): Text 'Vijay' is set on object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/input'
+
+2023-07-31 13:19:52 - [MESSAGE][PASSED] - Text 'Vijay' is set on object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/input'
+
+2023-07-31 13:19:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/button_Search")): Object: 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/button_Search' is clicked on
+
+2023-07-31 13:19:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/button_Search' is clicked on
+
+2023-07-31 13:19:52 - [TEST_STEP][NOT_RUN] - verifyElementText(findTestObject("Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found"), "(5) Records Found"): NOT_RUN: verifyElementText(findTestObject("Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found"), "(5) Records Found")
+
+2023-07-31 13:19:52 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText(findTestObject("Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found"), "(5) Records Found")
+
+2023-07-31 13:19:52 - [TEST_STEP][PASSED] - data = click(findTestObject("Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/div_03780362Vijaysai dundi")): Object: 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/div_03780362Vijaysai dundi' is clicked on
+
+2023-07-31 13:19:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/div_03780362Vijaysai dundi' is clicked on
+
+2023-07-31 13:19:54 - [TEST_STEP][PASSED] - println(data): null
+
+2023-07-31 13:19:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-31 13:19:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Medical_Change_Fecility" time="17.666" classname="Test Cases/Medical_Change_Fecility" status="PASSED">
+         <system-out><![CDATA[2023-07-31 13:19:56 - [TEST_CASE][PASSED] - Test Cases/Medical_Change_Fecility: Test Cases/Medical_Change_Fecility
+
+2023-07-31 13:19:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Appointment_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Appointment_Login' successfully
+
+2023-07-31 13:19:56 - [TEST_CASE][PASSED] - Test Cases/Appointment_Login: Test Cases/Appointment_Login
+
+2023-07-31 13:19:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-31 13:19:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-31 13:19:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-31 13:19:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-31 13:19:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-31 13:19:59 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-31 13:19:59 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-07-31 13:20:05 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-07-31 13:20:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-07-31 13:20:06 - [MESSAGE][PASSED] - Object: 'Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-07-31 13:20:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/input_Username_username'
+
+2023-07-31 13:20:07 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/input_Username_username'
+
+2023-07-31 13:20:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/input_Password_password'
+
+2023-07-31 13:20:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/input_Password_password'
+
+2023-07-31 13:20:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-07-31 13:20:08 - [MESSAGE][PASSED] - Object: 'Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-07-31 13:20:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Appointment_Login' successfully
+
+2023-07-31 13:20:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+2023-07-31 13:20:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+2023-07-31 13:20:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-31 13:20:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-31 13:20:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-31 13:20:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-31 13:19:26 - [TEST_SUITE][PASSED] - New TEstSuite 34: Test Cases/Medical_Change_Fecility]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

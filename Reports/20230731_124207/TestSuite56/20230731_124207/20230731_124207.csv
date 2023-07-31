@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite56,Chrome 115.0.0.0,,,2023-07-31 12:42:28,2023-07-31 12:43:18,50.208s,PASSED
+,,,,,,,
+Test Cases/Medical_Comment,Chrome 115.0.0.0,,,2023-07-31 12:42:28,2023-07-31 12:42:57,28.865s,PASSED
+"callTestCase(findTestCase(""Appointment_Login""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-31 12:42:29,2023-07-31 12:42:48,19.139s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f (1)""))",Chrome 115.0.0.0,,,2023-07-31 12:42:48,2023-07-31 12:42:49,0.615s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs""))",Chrome 115.0.0.0,,,2023-07-31 12:42:49,2023-07-31 12:42:50,0.699s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",Chrome 115.0.0.0,,,2023-07-31 12:42:50,2023-07-31 12:42:50,0.774s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_31""))",Chrome 115.0.0.0,,,2023-07-31 12:42:50,2023-07-31 12:42:51,0.652s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""Appointment booked"")",Chrome 115.0.0.0,,,2023-07-31 12:42:51,2023-07-31 12:42:52,1.024s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 115.0.0.0,,,2023-07-31 12:42:52,2023-07-31 12:42:54,2.202s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 115.0.0.0,,,2023-07-31 12:42:54,2023-07-31 12:42:56,1.755s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-31 12:42:56,2023-07-31 12:42:57,1.385s,PASSED
+,,,,,,,
+Test Cases/Medical_RadioButton2,Chrome 115.0.0.0,,,2023-07-31 12:42:57,2023-07-31 12:43:18,20.857s,PASSED
+"callTestCase(findTestCase(""Appointment_Login""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-31 12:42:58,2023-07-31 12:43:13,14.972s,PASSED
+"click(findTestObject(""Object Repository/Medical_radioButton2/Page_CURA Healthcare Service/input_None_programs""))",Chrome 115.0.0.0,,,2023-07-31 12:43:13,2023-07-31 12:43:14,0.677s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-07-31 12:43:14,2023-07-31 12:43:17,3.044s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-31 12:43:17,2023-07-31 12:43:18,1.278s,PASSED

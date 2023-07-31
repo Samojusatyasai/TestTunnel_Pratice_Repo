@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New TEstSuite 34,Chrome 115.0.0.0,,,2023-07-31 12:35:10,2023-07-31 12:39:59,4m - 48.643s,FAILED
+,,,,,,,
+Test Cases/Emp Verify Oragge Hrm,Chrome 115.0.0.0,,,2023-07-31 12:38:28,2023-07-31 12:39:35,1m - 6.485s,FAILED
+"callTestCase(findTestCase(""Orange HRM LogIN""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-31 12:38:28,2023-07-31 12:38:50,21.649s,PASSED
+"click(findTestObject(""Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/a_PIM""))",Chrome 115.0.0.0,,,2023-07-31 12:38:50,2023-07-31 12:38:55,5.745s,PASSED
+"setText(findTestObject(""Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/input""), ""Vijay"")",Chrome 115.0.0.0,,,2023-07-31 12:38:55,2023-07-31 12:38:59,3.771s,PASSED
+"click(findTestObject(""Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/button_Search""))",Chrome 115.0.0.0,,,2023-07-31 12:38:59,2023-07-31 12:39:00,0.582s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found""), ""(5) Records Found"")",Chrome 115.0.0.0,,,2023-07-31 12:39:00,2023-07-31 12:39:00,0.000s,NOT_RUN
+"data = click(findTestObject(""Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/div_03780362Vijaysai dundi""))",Chrome 115.0.0.0,,,2023-07-31 12:39:00,2023-07-31 12:39:34,34.698s,FAILED
+,,,,,,,
+Test Cases/Medical_Change_Fecility,Chrome 115.0.0.0,,,2023-07-31 12:39:35,2023-07-31 12:39:59,24.119s,PASSED
+"callTestCase(findTestCase(""Appointment_Login""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-31 12:39:36,2023-07-31 12:39:54,18.220s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",Chrome 115.0.0.0,,,2023-07-31 12:39:54,2023-07-31 12:39:54,0.614s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-07-31 12:39:54,2023-07-31 12:39:57,3.021s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-31 12:39:57,2023-07-31 12:39:59,1.277s,PASSED

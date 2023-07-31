@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Orange HRM PIM Report/Page_OrangeHRM/i_Location_oxd-icon bi-x --clear",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div[3]/div/div[7]/div/span[3]/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "id(\"app\")/div[@class\u003d\"oxd-layout\"]/div[@class\u003d\"oxd-layout-container\"]/div[@class\u003d\"oxd-layout-context\"]/div[@class\u003d\"orangehrm-background-container\"]/div[@class\u003d\"orangehrm-card-container\"]/form[@class\u003d\"oxd-form\"]/div[@class\u003d\"oxd-form-row\"]/div[@class\u003d\"oxd-grid-4 orangehrm-full-width-grid\"]/div[@class\u003d\"oxd-grid-item oxd-grid-item--gutters\"]/div[@class\u003d\"oxd-multiselect-chips-area\"]/span[@class\u003d\"oxd-chip oxd-chip--default oxd-multiselect-chips-selected\"]/i[@class\u003d\"oxd-icon bi-x --clear\"]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/20230731_134126/TestSuite1112/20230731_134127/Object Repository/Orange HRM PIM Report/Page_OrangeHRM/i_Location_oxd-icon bi-x --clear_BASIC.png"
+    }
+  ]
+}

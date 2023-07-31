@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New TEstSuite 34,Chrome 115.0.0.0,,,2023-07-31 13:19:26,2023-07-31 13:20:13,46.964s,PASSED
+,,,,,,,
+Test Cases/Emp Verify Oragge Hrm,Chrome 115.0.0.0,,,2023-07-31 13:19:27,2023-07-31 13:19:56,28.789s,PASSED
+"callTestCase(findTestCase(""Orange HRM LogIN""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-31 13:19:27,2023-07-31 13:19:46,18.805s,PASSED
+"click(findTestObject(""Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/a_PIM""))",Chrome 115.0.0.0,,,2023-07-31 13:19:46,2023-07-31 13:19:50,3.569s,PASSED
+"setText(findTestObject(""Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/input""), ""Vijay"")",Chrome 115.0.0.0,,,2023-07-31 13:19:50,2023-07-31 13:19:52,2.234s,PASSED
+"click(findTestObject(""Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/button_Search""))",Chrome 115.0.0.0,,,2023-07-31 13:19:52,2023-07-31 13:19:52,0.541s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found""), ""(5) Records Found"")",Chrome 115.0.0.0,,,2023-07-31 13:19:52,2023-07-31 13:19:52,0.003s,NOT_RUN
+"data = click(findTestObject(""Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/div_03780362Vijaysai dundi""))",Chrome 115.0.0.0,,,2023-07-31 13:19:52,2023-07-31 13:19:54,1.758s,PASSED
+println(data),Chrome 115.0.0.0,,,2023-07-31 13:19:54,2023-07-31 13:19:54,0.020s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-31 13:19:54,2023-07-31 13:19:56,1.285s,PASSED
+,,,,,,,
+Test Cases/Medical_Change_Fecility,Chrome 115.0.0.0,,,2023-07-31 13:19:56,2023-07-31 13:20:13,17.666s,PASSED
+"callTestCase(findTestCase(""Appointment_Login""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-31 13:19:56,2023-07-31 13:20:08,12.301s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",Chrome 115.0.0.0,,,2023-07-31 13:20:08,2023-07-31 13:20:09,0.442s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-07-31 13:20:09,2023-07-31 13:20:12,3.018s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-31 13:20:12,2023-07-31 13:20:13,1.574s,PASSED

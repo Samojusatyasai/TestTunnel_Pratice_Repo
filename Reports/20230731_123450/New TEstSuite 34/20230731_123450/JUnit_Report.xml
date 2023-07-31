@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New TEstSuite 34" time="288.643" tests="2" failures="1" errors="0">
+   <testsuite name="New TEstSuite 34" tests="2" failures="1" errors="0" time="288.643" skipped="0" timestamp="2023-07-31 12:35:10" hostname="satyasai.samoju - INBL01LAP31245.brd.g-c-i.com" id="Test Suites/New TEstSuite 34">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\Reports\\20230731_123450\\New TEstSuite 34\\20230731_123450"/>
+         <property name="logFiles" value="C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\Reports\\20230731_123450\\New TEstSuite 34\\20230731_123450\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\Reports\\20230731_123450\\New TEstSuite 34\\20230731_123450\\1690787175966.png, C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\Reports\\20230731_123450\\New TEstSuite 34\\20230731_123450\\1690787242227.png, C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\Reports\\20230731_123450\\New TEstSuite 34\\20230731_123450\\1690787307976.png, C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\Reports\\20230731_123450\\New TEstSuite 34\\20230731_123450\\1690787374687.png"/>
+         <property name="hostName" value="satyasai.samoju - INBL01LAP31245.brd.g-c-i.com"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="9b9ca34dff5aabef68ecd18c45047a20"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Emp Verify Oragge Hrm" time="66.485" classname="Test Cases/Emp Verify Oragge Hrm" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Emp Verify Oragge Hrm FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/div_03780362Vijaysai dundi'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Emp Verify Oragge Hrm.run(Emp Verify Oragge Hrm:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690787090136.run(TempTestSuite1690787090136.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/div_03780362Vijaysai dundi' located by '//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-07-31 12:38:28 - [TEST_CASE][FAILED] - Test Cases/Emp Verify Oragge Hrm: Test Cases/Emp Verify Oragge Hrm FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/div_03780362Vijaysai dundi'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Emp Verify Oragge Hrm.run(Emp Verify Oragge Hrm:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690787090136.run(TempTestSuite1690787090136.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/div_03780362Vijaysai dundi' located by '//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-07-31 12:38:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Orange HRM LogIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Orange HRM LogIN' successfully
+
+2023-07-31 12:38:28 - [TEST_CASE][PASSED] - Test Cases/Orange HRM LogIN: Test Cases/Orange HRM LogIN
+
+2023-07-31 12:38:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-31 12:38:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-31 12:38:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-31 12:38:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-31 12:38:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-31 12:38:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-31 12:38:34 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-31 12:38:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-31 12:38:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-31 12:38:37 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-07-31 12:38:45 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-07-31 12:38:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Username_username'
+
+2023-07-31 12:38:47 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Username_username'
+
+2023-07-31 12:38:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Password_password'
+
+2023-07-31 12:38:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/input_Password_password'
+
+2023-07-31 12:38:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/button_Login")): Object: 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/button_Login' is clicked on
+
+2023-07-31 12:38:50 - [MESSAGE][PASSED] - Object: 'Object Repository/OragngeHrm LOGIN/Page_OrangeHRM/button_Login' is clicked on
+
+2023-07-31 12:38:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Orange HRM LogIN' successfully
+
+2023-07-31 12:38:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/a_PIM")): Object: 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/a_PIM' is clicked on
+
+2023-07-31 12:38:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/a_PIM' is clicked on
+
+2023-07-31 12:38:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/input"), "Vijay"): Text 'Vijay' is set on object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/input'
+
+2023-07-31 12:38:59 - [MESSAGE][PASSED] - Text 'Vijay' is set on object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/input'
+
+2023-07-31 12:38:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/button_Search")): Object: 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/button_Search' is clicked on
+
+2023-07-31 12:39:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/button_Search' is clicked on
+
+2023-07-31 12:39:00 - [TEST_STEP][NOT_RUN] - verifyElementText(findTestObject("Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found"), "(5) Records Found"): NOT_RUN: verifyElementText(findTestObject("Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found"), "(5) Records Found")
+
+2023-07-31 12:39:00 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText(findTestObject("Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/span_(5) Records Found"), "(5) Records Found")
+
+2023-07-31 12:39:00 - [TEST_STEP][FAILED] - data = click(findTestObject("Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/div_03780362Vijaysai dundi")): Unable to click on object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/div_03780362Vijaysai dundi' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/div_03780362Vijaysai dundi'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Emp Verify Oragge Hrm.run(Emp Verify Oragge Hrm:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690787090136.run(TempTestSuite1690787090136.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/div_03780362Vijaysai dundi' located by '//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1690446890337.run(Script1690446890337.groovy:31)
+	... 16 more
+)
+
+2023-07-31 12:39:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='app']/div/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-07-31 12:39:31 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/div_03780362Vijaysai dundi'. Try using Self-healing.
+
+2023-07-31 12:39:31 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div'.
+
+2023-07-31 12:39:32 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[3]/div/div[2]/div/div'.
+
+2023-07-31 12:39:32 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[(text() = '03780362Vijaysai dundi' or . = '03780362Vijaysai dundi')]'.
+
+2023-07-31 12:39:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = '03780362Vijaysai dundi' or . = '03780362Vijaysai dundi')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-07-31 12:39:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: div.oxd-table-row.oxd-table-row--with-border.oxd-table-row--clickable'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-07-31 12:39:34 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/div_03780362Vijaysai dundi' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/div_03780362Vijaysai dundi'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Emp Verify Oragge Hrm.run(Emp Verify Oragge Hrm:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690787090136.run(TempTestSuite1690787090136.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/div_03780362Vijaysai dundi' located by '//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1690446890337.run(Script1690446890337.groovy:31)
+	... 16 more
+)
+[[ATTACHMENT|C:\\Users\\satyasai.samoju\\git\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\TestTunnel_Pratice_Repo\\Reports\\20230731_123450\\New TEstSuite 34\\20230731_123450\\1690787374687.png]]]]></system-out>
+         <system-err><![CDATA[2023-07-31 12:38:28 - [TEST_CASE][FAILED] - Test Cases/Emp Verify Oragge Hrm: Test Cases/Emp Verify Oragge Hrm FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/div_03780362Vijaysai dundi'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Emp Verify Oragge Hrm.run(Emp Verify Oragge Hrm:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690787090136.run(TempTestSuite1690787090136.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/div_03780362Vijaysai dundi' located by '//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Medical_Change_Fecility" time="24.119" classname="Test Cases/Medical_Change_Fecility" status="PASSED">
+         <system-out><![CDATA[2023-07-31 12:39:35 - [TEST_CASE][PASSED] - Test Cases/Medical_Change_Fecility: Test Cases/Medical_Change_Fecility
+
+2023-07-31 12:39:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Appointment_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Appointment_Login' successfully
+
+2023-07-31 12:39:36 - [TEST_CASE][PASSED] - Test Cases/Appointment_Login: Test Cases/Appointment_Login
+
+2023-07-31 12:39:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-31 12:39:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-31 12:39:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-31 12:39:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-31 12:39:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-31 12:39:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-31 12:39:42 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-31 12:39:42 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-07-31 12:39:48 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-07-31 12:39:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-07-31 12:39:50 - [MESSAGE][PASSED] - Object: 'Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-07-31 12:39:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/input_Username_username'
+
+2023-07-31 12:39:51 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/input_Username_username'
+
+2023-07-31 12:39:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/input_Password_password'
+
+2023-07-31 12:39:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/input_Password_password'
+
+2023-07-31 12:39:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-07-31 12:39:54 - [MESSAGE][PASSED] - Object: 'Object Repository/MakeAppointment_TestSuite/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-07-31 12:39:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Appointment_Login' successfully
+
+2023-07-31 12:39:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+2023-07-31 12:39:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+2023-07-31 12:39:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-31 12:39:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-31 12:39:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-31 12:39:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-31 12:35:10 - [TEST_SUITE][FAILED] - New TEstSuite 34: Test Cases/Emp Verify Oragge Hrm FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/div_03780362Vijaysai dundi'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Emp Verify Oragge Hrm.run(Emp Verify Oragge Hrm:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690787090136.run(TempTestSuite1690787090136.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/div_03780362Vijaysai dundi' located by '//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-07-31 12:35:10 - [TEST_SUITE][FAILED] - New TEstSuite 34: Test Cases/Emp Verify Oragge Hrm FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/div_03780362Vijaysai dundi'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Emp Verify Oragge Hrm.run(Emp Verify Oragge Hrm:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690787090136.run(TempTestSuite1690787090136.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Emp Verification OrangeHRM/Page_OrangeHRM/div_03780362Vijaysai dundi' located by '//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

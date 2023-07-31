@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestTunnel_Suite,Chrome 115.0.0.0,,,2023-07-31 12:16:05,2023-07-31 12:24:05,8m - 0.572s,FAILED
+,,,,,,,
+Test Cases/Test Tunnel3,Chrome 115.0.0.0,,,2023-07-31 12:17:32,2023-07-31 12:18:22,49.880s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-31 12:17:32,2023-07-31 12:17:38,6.443s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-07-31 12:17:38,2023-07-31 12:17:38,0.156s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 115.0.0.0,,,2023-07-31 12:17:38,2023-07-31 12:17:44,5.820s,PASSED
+"setText(findTestObject(""TestTunnel3/Page_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 115.0.0.0,,,2023-07-31 12:17:44,2023-07-31 12:17:46,1.823s,PASSED
+"setText(findTestObject(""TestTunnel3/Page_OrangeHRM/input_Password_password""), ""admin123"")",Chrome 115.0.0.0,,,2023-07-31 12:17:46,2023-07-31 12:17:47,1.169s,PASSED
+"click(findTestObject(""TestTunnel3/Page_OrangeHRM/button_Login""))",Chrome 115.0.0.0,,,2023-07-31 12:17:47,2023-07-31 12:17:48,0.714s,PASSED
+"click(findTestObject(""TestTunnel3/Page_OrangeHRM/span_Admin""))",Chrome 115.0.0.0,,,2023-07-31 12:17:48,2023-07-31 12:17:58,10.630s,PASSED
+"click(findTestObject(""TestTunnel3/Page_OrangeHRM/button_Add""))",Chrome 115.0.0.0,,,2023-07-31 12:17:58,2023-07-31 12:18:17,18.510s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-07-31 12:18:17,2023-07-31 12:18:20,3.189s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-31 12:18:20,2023-07-31 12:18:22,1.390s,PASSED
+,,,,,,,
+Test Cases/TestTunnel1,Chrome 115.0.0.0,,,2023-07-31 12:18:22,2023-07-31 12:18:39,17.757s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-31 12:18:22,2023-07-31 12:18:27,4.559s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-07-31 12:18:27,2023-07-31 12:18:27,0.151s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 115.0.0.0,,,2023-07-31 12:18:27,2023-07-31 12:18:34,6.746s,PASSED
+delay(4),Chrome 115.0.0.0,,,2023-07-31 12:18:34,2023-07-31 12:18:38,4.019s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-31 12:18:38,2023-07-31 12:18:39,1.400s,PASSED
+,,,,,,,
+Test Cases/TestTunnel4Demoqa,Chrome 115.0.0.0,,,2023-07-31 12:22:02,2023-07-31 12:23:41,1m - 39.531s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-31 12:22:02,2023-07-31 12:22:08,6.337s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-07-31 12:22:08,2023-07-31 12:22:08,0.158s,PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 115.0.0.0,,,2023-07-31 12:22:08,2023-07-31 12:23:06,57.450s,PASSED
+delay(2),Chrome 115.0.0.0,,,2023-07-31 12:23:06,2023-07-31 12:23:08,2.015s,PASSED
+"click(findTestObject(""DemoqaText/Page_DEMOQA/path""))",Chrome 115.0.0.0,,,2023-07-31 12:23:08,2023-07-31 12:23:41,33.526s,FAILED
+,,,,,,,
+Test Cases/TestTunnel2,Chrome 115.0.0.0,,,2023-07-31 12:23:41,2023-07-31 12:24:05,24.020s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-31 12:23:42,2023-07-31 12:23:50,8.220s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-07-31 12:23:50,2023-07-31 12:23:50,0.131s,PASSED
+"navigateToUrl(""https://www.youtube.com/"")",Chrome 115.0.0.0,,,2023-07-31 12:23:50,2023-07-31 12:24:01,10.172s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-07-31 12:24:01,2023-07-31 12:24:04,3.012s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-31 12:24:04,2023-07-31 12:24:05,1.491s,PASSED

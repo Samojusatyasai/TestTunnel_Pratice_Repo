@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite78,Chrome 115.0.0.0,,,2023-07-31 13:35:17,2023-07-31 13:35:50,33.746s,PASSED
+,,,,,,,
+Test Cases/Medical_Radio_Button,Chrome 115.0.0.0,,,2023-07-31 13:35:17,2023-07-31 13:35:34,16.844s,PASSED
+"callTestCase(findTestCase(""Appointment_Login""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-31 13:35:17,2023-07-31 13:35:29,11.842s,PASSED
+"click(findTestObject(""Object Repository/Medical_Radio_Button/Page_CURA Healthcare Service/input_Medicaid_programs""))",Chrome 115.0.0.0,,,2023-07-31 13:35:29,2023-07-31 13:35:30,0.406s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-07-31 13:35:30,2023-07-31 13:35:33,3.020s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-31 13:35:33,2023-07-31 13:35:34,1.197s,PASSED
+,,,,,,,
+Test Cases/Medi_Select_date,Chrome 115.0.0.0,,,2023-07-31 13:35:34,2023-07-31 13:35:50,16.599s,PASSED
+"callTestCase(findTestCase(""Appointment_Login""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-31 13:35:34,2023-07-31 13:35:45,10.488s,PASSED
+"click(findTestObject(""Object Repository/Medi_Select_Date/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",Chrome 115.0.0.0,,,2023-07-31 13:35:45,2023-07-31 13:35:45,0.440s,PASSED
+"click(findTestObject(""Object Repository/Medi_Select_Date/Page_CURA Healthcare Service/td_14""))",Chrome 115.0.0.0,,,2023-07-31 13:35:45,2023-07-31 13:35:46,0.534s,PASSED
+"click(findTestObject(""Object Repository/Medi_Select_Date/Page_CURA Healthcare Service/div_Comment""))",Chrome 115.0.0.0,,,2023-07-31 13:35:46,2023-07-31 13:35:46,0.509s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-07-31 13:35:46,2023-07-31 13:35:49,3.009s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-31 13:35:49,2023-07-31 13:35:50,1.258s,PASSED

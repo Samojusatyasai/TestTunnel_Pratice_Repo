@@ -28,6 +28,16 @@
       "proposedLocatorMethod": "BASIC",
       "recoveryMethod": "BASIC",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Orange HRM PIM Report/Page_OrangeHRM/i_Location_oxd-icon bi-x --clear_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_OrangeHRM/textarea_Comments_oxd-textarea oxd-textarea_6464fb (1)",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div[5]/div/div/div/div[2]/textarea",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//textarea",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_OrangeHRM/textarea_Comments_oxd-textarea oxd-textarea_6464fb (1)_position.png"
     }
   ]
 }
